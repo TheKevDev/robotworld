@@ -1,0 +1,1573 @@
+robotworld-RectangleShape.o: ../../src/RectangleShape.cpp \
+ ../../src/RectangleShape.hpp ../../src/Config.hpp \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/string \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stringfwd.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/memoryfwd.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/char_traits.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_algobase.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/functexcept.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/exception_defines.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/cpp_type_traits.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/type_traits.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/numeric_traits.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_pair.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/move.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/concept_check.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/type_traits \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_iterator_base_types.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_iterator_base_funcs.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/debug/assertions.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_iterator.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/ptr_traits.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/debug/debug.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/predefined_ops.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/postypes.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cwchar \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/wchar.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_print_push.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cstdint \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/stdint.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/stdint.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/stddef.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/stddef.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/allocator.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/new_allocator.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/new \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/exception \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/atomic_lockfree_defines.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/exception_ptr.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/nested_exception.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/localefwd.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/clocale \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/locale.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/stdio.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/iosfwd \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cctype \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/ctype.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/ostream_insert.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/cxxabi_forced.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_function.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/backward/binders.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/range_access.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/initializer_list \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/basic_string.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/atomicity.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pthread.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/errno.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/process.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed/limits.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed/syslimits.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/limits.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/signal.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pthread_signal.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/alloc_traits.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/alloc_traits.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/string_conversions.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cstdlib \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/stdlib.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/malloc.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cstdio \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cerrno \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/functional_hash.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/hash_bytes.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/basic_string.tcc \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/memory \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_construct.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_uninitialized.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_tempbuf.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_raw_storage_iter.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/typeinfo \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/concurrence.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/uses_allocator.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/functional \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/tuple \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/utility \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_relops.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/array \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/stdexcept \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/unique_ptr.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/shared_ptr.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/shared_ptr_base.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/allocated_ptr.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/aligned_buffer.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/shared_ptr_atomic.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/atomic_base.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/backward/auto_ptr.h \
+ ../../src/Widgets.hpp \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/app.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/event.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/defs.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/platform.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/compiler.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/mingw/lib/wx/include/msw-unicode-3.1/wx/setup.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/libraries.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/gccpriv.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/w32api.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/chkconf.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/chkconf.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/version.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/cpp.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/dlimpexp.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/debug.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/assert.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/chartype.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/string.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/tchar.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/tchar_s.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/windowid.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/winundef.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/features.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/object.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/memory.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/string.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/stdarg.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/stdarg.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/wxcrtbase.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/wctype.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/time.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_timeval.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/io.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/strvararg.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/strconv.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/buffer.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/fontenc.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/unichar.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/stringimpl.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/beforestd.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/afterstd.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/algorithm \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_algo.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/algorithmfwd.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_heap.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/uniform_int_dist.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/limits \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/stringops.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/iosfwrap.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msgout.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/xti.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/rtti.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/flags.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/xti2.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/clntdata.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/hashmap.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/wxcrt.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/gdicmn.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/list.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/vector.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/scopeguard.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/except.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/meta/movable.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/meta/pod.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/meta/if.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/math.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/math.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cmath \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/math.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/cursor.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/gdiobj.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/gdiimage.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/cursor.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/utils.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/filefn.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/arrstr.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/vector \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_vector.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_bvector.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/vector.tcc \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/iterator \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ostream \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ios \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/ios_base.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/locale_classes.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/locale_classes.tcc \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/system_error \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/streambuf \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/streambuf.tcc \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/basic_ios.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/locale_facets.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cwctype \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/streambuf_iterator.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/locale_facets.tcc \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/basic_ios.tcc \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/ostream.tcc \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/istream \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/istream.tcc \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stream_iterator.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sys/stat.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/fcntl.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/versioninfo.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/meta/implicitconversion.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/mousestate.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/kbdstate.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/longlong.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/platinfo.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/dynarray.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/thread.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/tracker.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/typeinfo.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/any.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/datetime.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/anystr.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/variant.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/meta/convertible.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/meta/removeref.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/eventfilter.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/build.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/cmdargs.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/init.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/init.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/wrapwin.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/windows.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sdkddkver.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/excpt.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/windef.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/minwindef.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/winapifamily.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/specstrings.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sal.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/winnt.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_unicode.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/apiset.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/basetsd.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/guiddef.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/x86intrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/ia32intrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/mmintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/xmmintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/mm_malloc.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/emmintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/pmmintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/tmmintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/ammintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/smmintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/popcntintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/wmmintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/immintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avxintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx2intrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512fintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512erintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512pfintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512cdintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512vlintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512bwintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512dqintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512vlbwintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512vldqintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512ifmaintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512ifmavlintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512vbmiintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512vbmivlintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/shaintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/lzcntintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/bmiintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/bmi2intrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/fmaintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/f16cintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/rtmintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/xtestintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/mm3dnow.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/prfchwintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/fma4intrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/xopintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/lwpintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/tbmintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/rdseedintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/fxsrintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/xsaveintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/xsaveoptintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/adxintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/clwbintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/pcommitintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/clflushoptintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/xsavesintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/xsavecintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/mwaitxintrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/clzerointrin.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/pkuintrin.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pshpack4.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/poppack.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pshpack4.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pshpack2.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/poppack.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pshpack2.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pshpack8.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pshpack8.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/ktmtypes.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/winbase.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/apisetcconv.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/minwinbase.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/bemapiset.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/debugapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/errhandlingapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/fibersapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/fileapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/handleapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/heapapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/ioapiset.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/interlockedapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/jobapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/libloaderapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/memoryapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/namedpipeapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/namespaceapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/processenv.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/processthreadsapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/processtopologyapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/profileapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/realtimeapiset.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/securityappcontainer.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/securitybaseapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/synchapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sysinfoapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/systemtopologyapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/threadpoolapiset.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/utilapiset.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/wow64apiset.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/winerror.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/fltwinerror.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/timezoneapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/wingdi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pshpack1.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/winuser.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/tvout.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/winnls.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/datetimeapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/stringapiset.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/wincon.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/winver.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/winreg.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/reason.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/winnetwk.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/wnnc.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/virtdisk.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/stralign.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/winsvc.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/mcx.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/imm.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/intl.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/translation.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/language.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/scopedptr.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/checkeddelete.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/log.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/generic/logg.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/app.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/icon.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/iconloc.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/icon.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/dc.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/colour.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/colour.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/font.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/font.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/bitmap.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/image.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/stream.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/imagbmp.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/imagpng.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/imaggif.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/imagpcx.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/imagjpeg.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/imagtga.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/imagtiff.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/imagpnm.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/imagxpm.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/imagiff.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/bitmap.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/palette.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/palette.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/brush.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/brush.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/pen.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/pen.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/region.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/region.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/affinematrix2d.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/affinematrix2dbase.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/geometry.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/dcclient.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/dnd.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/dataobj.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/ole/dataform.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/ole/dataobj.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/ole/dataobj2.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/ole/dropsrc.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/ole/droptgt.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/gbsizer.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/sizer.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/window.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/validate.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/accel.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/accel.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/window.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/settings.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/imaglist.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/imaglist.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/splitter.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/generic/splitter.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/containr.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/button.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/anybutton.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/control.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/control.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/anybutton.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/button.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/frame.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/toplevel.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/nonownedwnd.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/nonownedwnd.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/iconbndl.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/weakref.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/meta/int2type.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/toplevel.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/statusbr.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/statusbar.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/tooltip.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/tooltip.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/frame.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/menu.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/menuitem.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/menuitem.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/ownerdrw.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/ownerdrw.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/menu.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msgdlg.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/dialog.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/sharedptr.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/atomic.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/dialog.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/panel.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/panel.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/stockitem.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/generic/msgdlgg.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/msgdlg.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/statline.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/statline.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/toolbar.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/tbarbase.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/toolbar.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/listbase.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/systhemectrl.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/scrolwin.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/generic/scrolwin.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/recguard.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/treebase.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/itemid.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/generic/textdlgg.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/valtext.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/textctrl.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/textentry.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/textentry.h \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/ioswrap.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/iostream \
+ C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/textctrl.h \
+ ../../src/Point.hpp ../../src/Size.hpp ../../src/Region.hpp \
+ ../../src/Shape.hpp ../../src/ViewObject.hpp ../../src/Observer.hpp \
+ ../../src/ObjectId.hpp ../../src/ModelObject.hpp \
+ C:/boost/include/boost/noncopyable.hpp \
+ C:/boost/include/boost/core/noncopyable.hpp \
+ C:/boost/include/boost/config.hpp C:/boost/include/boost/config/user.hpp \
+ C:/boost/include/boost/config/select_compiler_config.hpp \
+ C:/boost/include/boost/config/compiler/gcc.hpp \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cstddef \
+ C:/boost/include/boost/config/select_stdlib_config.hpp \
+ C:/boost/include/boost/config/stdlib/libstdcpp3.hpp \
+ C:/boost/include/boost/config/select_platform_config.hpp \
+ C:/boost/include/boost/config/platform/win32.hpp \
+ C:/boost/include/boost/config/suffix.hpp ../../src/Notifier.hpp \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/sstream \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/sstream.tcc \
+ ../../src/Shape2DUtils.hpp ../../src/BoundedVector.hpp \
+ ../../src/MathUtils.hpp
+
+../../src/RectangleShape.hpp:
+
+../../src/Config.hpp:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/vadefs.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/string:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stringfwd.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/memoryfwd.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/char_traits.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_algobase.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/functexcept.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/exception_defines.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/cpp_type_traits.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/type_traits.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/numeric_traits.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_pair.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/move.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/concept_check.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/type_traits:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_iterator_base_types.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_iterator_base_funcs.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/debug/assertions.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_iterator.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/ptr_traits.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/debug/debug.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/predefined_ops.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/postypes.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cwchar:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/wchar.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/crtdefs.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_print_push.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/swprintf.inl:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_print_pop.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cstdint:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/stdint.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/stdint.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/stddef.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/stddef.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/allocator.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/new_allocator.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/new:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/exception:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/atomic_lockfree_defines.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/exception_ptr.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/nested_exception.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/localefwd.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/clocale:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/locale.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/stdio.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/iosfwd:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cctype:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/ctype.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/ostream_insert.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/cxxabi_forced.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_function.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/backward/binders.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/range_access.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/initializer_list:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/basic_string.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/atomicity.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pthread.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/errno.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sys/types.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/process.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed/limits.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed/syslimits.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/limits.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/signal.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pthread_signal.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sys/timeb.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pthread_compat.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/alloc_traits.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/alloc_traits.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/string_conversions.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cstdlib:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/stdlib.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/stdlib.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/malloc.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cstdio:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cerrno:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/functional_hash.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/hash_bytes.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/basic_string.tcc:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/memory:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_construct.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_uninitialized.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_tempbuf.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_raw_storage_iter.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/typeinfo:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/concurrence.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/uses_allocator.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/functional:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/tuple:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/utility:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_relops.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/array:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/stdexcept:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/unique_ptr.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/shared_ptr.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/shared_ptr_base.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/allocated_ptr.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/aligned_buffer.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/shared_ptr_atomic.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/atomic_base.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/backward/auto_ptr.h:
+
+../../src/Widgets.hpp:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/app.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/event.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/defs.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/platform.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/compiler.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/mingw/lib/wx/include/msw-unicode-3.1/wx/setup.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/libraries.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/gccpriv.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/w32api.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/chkconf.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/chkconf.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/version.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/cpp.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/dlimpexp.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/debug.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/assert.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/chartype.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/string.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/tchar.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/tchar_s.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/windowid.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/winundef.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/features.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/object.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/memory.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/string.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/stdarg.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/stdarg.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_stdarg.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/wxcrtbase.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/wctype.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/time.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_timeval.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pthread_time.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/io.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/strvararg.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/strconv.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/buffer.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/fontenc.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/unichar.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/stringimpl.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/beforestd.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/afterstd.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/algorithm:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_algo.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/algorithmfwd.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_heap.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/uniform_int_dist.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/limits:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/stringops.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/iosfwrap.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msgout.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/xti.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/rtti.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/flags.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/xti2.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/clntdata.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/hashmap.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/wxcrt.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/gdicmn.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/list.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/vector.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/scopeguard.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/except.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/meta/movable.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/meta/pod.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/meta/if.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/math.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/math.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cmath:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/math.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/cursor.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/gdiobj.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/gdiimage.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/cursor.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/utils.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/filefn.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/arrstr.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/vector:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_vector.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_bvector.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/vector.tcc:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/iterator:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ostream:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ios:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/ios_base.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/locale_classes.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/locale_classes.tcc:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/system_error:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/streambuf:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/streambuf.tcc:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/basic_ios.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/locale_facets.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cwctype:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/streambuf_iterator.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/locale_facets.tcc:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/basic_ios.tcc:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/ostream.tcc:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/istream:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/istream.tcc:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stream_iterator.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sys/stat.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/fcntl.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/versioninfo.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/meta/implicitconversion.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/mousestate.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/kbdstate.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/longlong.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/platinfo.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/dynarray.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/thread.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/tracker.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/typeinfo.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/any.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/datetime.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/anystr.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/variant.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/meta/convertible.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/meta/removeref.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/eventfilter.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/build.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/cmdargs.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/init.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/init.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/wrapwin.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/windows.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sdkddkver.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/excpt.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/windef.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/minwindef.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/winapifamily.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/specstrings.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sal.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/winnt.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_unicode.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/apiset.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/psdk_inc/intrin-impl.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/basetsd.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/guiddef.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/x86intrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/ia32intrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/mmintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/xmmintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/mm_malloc.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/emmintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/pmmintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/tmmintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/ammintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/smmintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/popcntintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/wmmintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/immintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avxintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx2intrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512fintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512erintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512pfintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512cdintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512vlintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512bwintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512dqintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512vlbwintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512vldqintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512ifmaintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512ifmavlintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512vbmiintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/avx512vbmivlintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/shaintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/lzcntintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/bmiintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/bmi2intrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/fmaintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/f16cintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/rtmintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/xtestintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/mm3dnow.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/prfchwintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/fma4intrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/xopintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/lwpintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/tbmintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/rdseedintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/fxsrintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/xsaveintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/xsaveoptintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/adxintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/clwbintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/pcommitintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/clflushoptintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/xsavesintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/xsavecintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/mwaitxintrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/clzerointrin.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/pkuintrin.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pshpack4.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/poppack.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pshpack4.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pshpack2.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/poppack.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pshpack2.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pshpack8.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pshpack8.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/ktmtypes.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/winbase.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/apisetcconv.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/minwinbase.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/bemapiset.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/debugapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/errhandlingapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/fibersapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/fileapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/handleapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/heapapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/ioapiset.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/interlockedapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/jobapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/libloaderapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/memoryapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/namedpipeapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/namespaceapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/processenv.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/processthreadsapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/processtopologyapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/profileapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/realtimeapiset.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/securityappcontainer.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/securitybaseapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/synchapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sysinfoapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/systemtopologyapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/threadpoolapiset.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/threadpoollegacyapiset.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/utilapiset.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/wow64apiset.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/winerror.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/fltwinerror.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/timezoneapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/wingdi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pshpack1.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/winuser.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/tvout.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/winnls.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/datetimeapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/stringapiset.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/wincon.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/winver.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/winreg.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/reason.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/winnetwk.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/wnnc.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/virtdisk.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/stralign.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/stralign_s.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/winsvc.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/mcx.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/imm.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/intl.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/translation.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/language.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/scopedptr.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/checkeddelete.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/log.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/generic/logg.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/app.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/icon.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/iconloc.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/icon.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/dc.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/colour.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/colour.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/font.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/font.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/bitmap.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/image.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/stream.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/imagbmp.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/imagpng.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/imaggif.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/imagpcx.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/imagjpeg.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/imagtga.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/imagtiff.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/imagpnm.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/imagxpm.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/imagiff.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/bitmap.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/palette.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/palette.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/brush.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/brush.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/pen.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/pen.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/region.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/region.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/affinematrix2d.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/affinematrix2dbase.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/geometry.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/dcclient.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/dnd.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/dataobj.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/ole/dataform.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/ole/dataobj.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/ole/dataobj2.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/ole/dropsrc.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/ole/droptgt.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/gbsizer.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/sizer.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/window.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/validate.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/accel.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/accel.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/window.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/settings.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/imaglist.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/imaglist.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/splitter.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/generic/splitter.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/containr.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/button.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/anybutton.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/control.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/control.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/anybutton.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/button.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/frame.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/toplevel.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/nonownedwnd.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/nonownedwnd.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/iconbndl.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/weakref.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/meta/int2type.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/toplevel.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/statusbr.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/statusbar.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/tooltip.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/tooltip.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/frame.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/menu.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/menuitem.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/menuitem.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/ownerdrw.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/ownerdrw.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/menu.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msgdlg.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/dialog.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/sharedptr.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/atomic.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/dialog.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/panel.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/panel.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/stockitem.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/generic/msgdlgg.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/msgdlg.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/statline.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/statline.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/toolbar.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/tbarbase.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/toolbar.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/listbase.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/systhemectrl.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/scrolwin.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/generic/scrolwin.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/recguard.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/treebase.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/itemid.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/generic/textdlgg.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/valtext.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/textctrl.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/textentry.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/textentry.h:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/ioswrap.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/iostream:
+
+C:/Users/nicov/Documents/HAN/OSM-S/wxWidgets-3.1.0/include/wx/msw/textctrl.h:
+
+../../src/Point.hpp:
+
+../../src/Size.hpp:
+
+../../src/Region.hpp:
+
+../../src/Shape.hpp:
+
+../../src/ViewObject.hpp:
+
+../../src/Observer.hpp:
+
+../../src/ObjectId.hpp:
+
+../../src/ModelObject.hpp:
+
+C:/boost/include/boost/noncopyable.hpp:
+
+C:/boost/include/boost/core/noncopyable.hpp:
+
+C:/boost/include/boost/config.hpp:
+
+C:/boost/include/boost/config/user.hpp:
+
+C:/boost/include/boost/config/select_compiler_config.hpp:
+
+C:/boost/include/boost/config/compiler/gcc.hpp:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cstddef:
+
+C:/boost/include/boost/config/select_stdlib_config.hpp:
+
+C:/boost/include/boost/config/stdlib/libstdcpp3.hpp:
+
+C:/boost/include/boost/config/select_platform_config.hpp:
+
+C:/boost/include/boost/config/platform/win32.hpp:
+
+C:/boost/include/boost/config/suffix.hpp:
+
+../../src/Notifier.hpp:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/sstream:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/sstream.tcc:
+
+../../src/Shape2DUtils.hpp:
+
+../../src/BoundedVector.hpp:
+
+../../src/MathUtils.hpp:

@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.toolchain.gnu.mingw.base.1227715612">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.toolchain.gnu.mingw.base.1227715612" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration buildProperties="" description="" id="cdt.managedbuild.toolchain.gnu.mingw.base.1227715612" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="cdt.managedbuild.toolchain.gnu.mingw.base.1227715612.1463545657" name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.base.980162313" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.PE" id="cdt.managedbuild.target.gnu.platform.mingw.base.409131268" name="Debug Platform" osList="win32" superClass="cdt.managedbuild.target.gnu.platform.mingw.base"/>
+							<builder buildPath="${workspace_loc:/RobotWorld/mingwnative}" command="C:\mingw-w64\msys64\usr\bin\make" id="cdt.managedbuild.builder.gnu.cross.667476952" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="cdt.managedbuild.builder.gnu.cross"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.base.406019297" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.base">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1283503279" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.2089975968" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base.1932651189" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.451075447" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.165568444" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base">
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.619809190" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.base.1277688005" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base.1791632234" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1644013343" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="org.eclipse.linuxtools.cdt.autotools.core.configuration.build.debug.1499962742;org.eclipse.linuxtools.cdt.autotools.core.configuration.build.debug.1499962742.;org.eclipse.linuxtools.cdt.autotools.core.toolchain.tool.gpp.debug.384282493;cdt.managedbuild.tool.gnu.cpp.compiler.input.1949081964">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1664618371;org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1664618371.;org.eclipse.linuxtools.cdt.autotools.core.toolchain.tool.gpp.1873033801;cdt.managedbuild.tool.gnu.cpp.compiler.input.1318804334">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1664618371;org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1664618371.;org.eclipse.linuxtools.cdt.autotools.core.toolchain.tool.gcc.841711599;cdt.managedbuild.tool.gnu.c.compiler.input.87625937">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.linuxtools.cdt.autotools.core.configuration.build.debug.1499962742;org.eclipse.linuxtools.cdt.autotools.core.configuration.build.debug.1499962742.;org.eclipse.linuxtools.cdt.autotools.core.toolchain.tool.gcc.debug.50978187;cdt.managedbuild.tool.gnu.c.compiler.input.430330549">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="RobotWorld.null.284964422" name="RobotWorld"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Robotworld">
+			<resource resourceType="PROJECT" workspacePath="/RobotWorld"/>
+		</configuration>
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/RobotWorld"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+		<buildTargets>
+			<target name="all" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="am--refresh" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>am--refresh</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="check" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>check</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="clean" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="clean-cscope" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>clean-cscope</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="clean-libtool" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>clean-libtool</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="cscope" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>cscope</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="cscope.files" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>cscope.files</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="cscopelist" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>cscopelist</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="ctags" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>ctags</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="dist" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>dist</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="dist-all" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>dist-all</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="dist-bzip2" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>dist-bzip2</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="dist-gzip" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>dist-gzip</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="dist-lzip" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>dist-lzip</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="dist-shar" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>dist-shar</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="dist-tarZ" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>dist-tarZ</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="dist-xz" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>dist-xz</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="dist-zip" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>dist-zip</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="distcheck" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>distcheck</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="distclean" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>distclean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="distclean-libtool" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>distclean-libtool</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="distclean-tags" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>distclean-tags</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="distcleancheck" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>distcleancheck</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="distdir" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>distdir</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="distuninstallcheck" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>distuninstallcheck</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="dvi" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>dvi</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="html" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>html</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="info" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>info</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="install" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>install</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="install-data" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>install-data</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="install-dvi" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>install-dvi</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="install-exec" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>install-exec</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="install-html" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>install-html</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="install-info" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>install-info</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="install-man" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>install-man</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="install-pdf" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>install-pdf</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="install-ps" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>install-ps</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="install-strip" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>install-strip</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="installcheck" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>installcheck</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="installdirs" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>installdirs</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="maintainer-clean" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>maintainer-clean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="Makefile" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>Makefile</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="mostlyclean" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>mostlyclean</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="mostlyclean-libtool" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>mostlyclean-libtool</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="pdf" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>pdf</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="ps" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>ps</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="tags" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>tags</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+			<target name="uninstall" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>C:/mingw-w64/msys64/usr/bin/make</buildCommand>
+				<buildArguments/>
+				<buildTarget>uninstall</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
+		</buildTargets>
+	</storageModule>
+</cproject>

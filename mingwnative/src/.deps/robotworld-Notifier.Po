@@ -1,0 +1,1156 @@
+robotworld-Notifier.o: ../../src/Notifier.cpp ../../src/Notifier.hpp \
+ ../../src/Config.hpp \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/string \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stringfwd.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/memoryfwd.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/char_traits.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_algobase.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/functexcept.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/exception_defines.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/cpp_type_traits.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/type_traits.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/numeric_traits.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_pair.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/move.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/concept_check.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/type_traits \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_iterator_base_types.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_iterator_base_funcs.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/debug/assertions.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_iterator.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/ptr_traits.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/debug/debug.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/predefined_ops.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/postypes.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cwchar \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/wchar.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_print_push.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/swprintf.inl \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_print_pop.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cstdint \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/stdint.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/stdint.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/stddef.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/stddef.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/allocator.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/new_allocator.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/new \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/exception \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/atomic_lockfree_defines.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/exception_ptr.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/nested_exception.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/localefwd.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/clocale \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/locale.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/stdio.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/iosfwd \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cctype \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/ctype.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/ostream_insert.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/cxxabi_forced.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_function.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/backward/binders.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/range_access.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/initializer_list \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/basic_string.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/atomicity.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pthread.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/errno.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sys/types.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/process.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed/limits.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed/syslimits.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/limits.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/signal.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pthread_signal.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pthread_compat.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/alloc_traits.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/alloc_traits.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/string_conversions.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cstdlib \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/stdlib.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/stdlib.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/malloc.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cstdio \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cerrno \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/functional_hash.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/hash_bytes.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/basic_string.tcc \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/vector \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_construct.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_uninitialized.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_vector.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_bvector.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/vector.tcc \
+ ../../src/Observer.hpp C:/boost/include/boost/foreach.hpp \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cstddef \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/utility \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_relops.h \
+ C:/boost/include/boost/config.hpp C:/boost/include/boost/config/user.hpp \
+ C:/boost/include/boost/config/select_compiler_config.hpp \
+ C:/boost/include/boost/config/compiler/gcc.hpp \
+ C:/boost/include/boost/config/select_stdlib_config.hpp \
+ C:/boost/include/boost/config/stdlib/libstdcpp3.hpp \
+ C:/boost/include/boost/config/select_platform_config.hpp \
+ C:/boost/include/boost/config/platform/win32.hpp \
+ C:/boost/include/boost/config/suffix.hpp \
+ C:/boost/include/boost/detail/workaround.hpp \
+ C:/boost/include/boost/mpl/if.hpp \
+ C:/boost/include/boost/mpl/aux_/value_wknd.hpp \
+ C:/boost/include/boost/mpl/aux_/static_cast.hpp \
+ C:/boost/include/boost/mpl/aux_/config/workaround.hpp \
+ C:/boost/include/boost/mpl/aux_/config/integral.hpp \
+ C:/boost/include/boost/mpl/aux_/config/msvc.hpp \
+ C:/boost/include/boost/mpl/aux_/config/eti.hpp \
+ C:/boost/include/boost/mpl/aux_/na_spec.hpp \
+ C:/boost/include/boost/mpl/lambda_fwd.hpp \
+ C:/boost/include/boost/mpl/void_fwd.hpp \
+ C:/boost/include/boost/mpl/aux_/adl_barrier.hpp \
+ C:/boost/include/boost/mpl/aux_/config/adl.hpp \
+ C:/boost/include/boost/mpl/aux_/config/intel.hpp \
+ C:/boost/include/boost/mpl/aux_/config/gcc.hpp \
+ C:/boost/include/boost/mpl/aux_/na.hpp \
+ C:/boost/include/boost/mpl/bool.hpp \
+ C:/boost/include/boost/mpl/bool_fwd.hpp \
+ C:/boost/include/boost/mpl/integral_c_tag.hpp \
+ C:/boost/include/boost/mpl/aux_/config/static_constant.hpp \
+ C:/boost/include/boost/mpl/aux_/na_fwd.hpp \
+ C:/boost/include/boost/mpl/aux_/config/ctps.hpp \
+ C:/boost/include/boost/mpl/aux_/config/lambda.hpp \
+ C:/boost/include/boost/mpl/aux_/config/ttp.hpp \
+ C:/boost/include/boost/mpl/int.hpp \
+ C:/boost/include/boost/mpl/int_fwd.hpp \
+ C:/boost/include/boost/mpl/aux_/nttp_decl.hpp \
+ C:/boost/include/boost/mpl/aux_/config/nttp.hpp \
+ C:/boost/include/boost/mpl/aux_/integral_wrapper.hpp \
+ C:/boost/include/boost/preprocessor/cat.hpp \
+ C:/boost/include/boost/preprocessor/config/config.hpp \
+ C:/boost/include/boost/mpl/aux_/lambda_arity_param.hpp \
+ C:/boost/include/boost/mpl/aux_/template_arity_fwd.hpp \
+ C:/boost/include/boost/mpl/aux_/arity.hpp \
+ C:/boost/include/boost/mpl/aux_/config/dtp.hpp \
+ C:/boost/include/boost/mpl/aux_/preprocessor/params.hpp \
+ C:/boost/include/boost/mpl/aux_/config/preprocessor.hpp \
+ C:/boost/include/boost/preprocessor/comma_if.hpp \
+ C:/boost/include/boost/preprocessor/punctuation/comma_if.hpp \
+ C:/boost/include/boost/preprocessor/control/if.hpp \
+ C:/boost/include/boost/preprocessor/control/iif.hpp \
+ C:/boost/include/boost/preprocessor/logical/bool.hpp \
+ C:/boost/include/boost/preprocessor/facilities/empty.hpp \
+ C:/boost/include/boost/preprocessor/punctuation/comma.hpp \
+ C:/boost/include/boost/preprocessor/repeat.hpp \
+ C:/boost/include/boost/preprocessor/repetition/repeat.hpp \
+ C:/boost/include/boost/preprocessor/debug/error.hpp \
+ C:/boost/include/boost/preprocessor/detail/auto_rec.hpp \
+ C:/boost/include/boost/preprocessor/tuple/eat.hpp \
+ C:/boost/include/boost/preprocessor/inc.hpp \
+ C:/boost/include/boost/preprocessor/arithmetic/inc.hpp \
+ C:/boost/include/boost/mpl/aux_/preprocessor/enum.hpp \
+ C:/boost/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp \
+ C:/boost/include/boost/mpl/limits/arity.hpp \
+ C:/boost/include/boost/preprocessor/logical/and.hpp \
+ C:/boost/include/boost/preprocessor/logical/bitand.hpp \
+ C:/boost/include/boost/preprocessor/identity.hpp \
+ C:/boost/include/boost/preprocessor/facilities/identity.hpp \
+ C:/boost/include/boost/preprocessor/empty.hpp \
+ C:/boost/include/boost/preprocessor/arithmetic/add.hpp \
+ C:/boost/include/boost/preprocessor/arithmetic/dec.hpp \
+ C:/boost/include/boost/preprocessor/control/while.hpp \
+ C:/boost/include/boost/preprocessor/list/fold_left.hpp \
+ C:/boost/include/boost/preprocessor/list/detail/fold_left.hpp \
+ C:/boost/include/boost/preprocessor/control/expr_iif.hpp \
+ C:/boost/include/boost/preprocessor/list/adt.hpp \
+ C:/boost/include/boost/preprocessor/detail/is_binary.hpp \
+ C:/boost/include/boost/preprocessor/detail/check.hpp \
+ C:/boost/include/boost/preprocessor/logical/compl.hpp \
+ C:/boost/include/boost/preprocessor/list/fold_right.hpp \
+ C:/boost/include/boost/preprocessor/list/detail/fold_right.hpp \
+ C:/boost/include/boost/preprocessor/list/reverse.hpp \
+ C:/boost/include/boost/preprocessor/control/detail/while.hpp \
+ C:/boost/include/boost/preprocessor/tuple/elem.hpp \
+ C:/boost/include/boost/preprocessor/facilities/expand.hpp \
+ C:/boost/include/boost/preprocessor/facilities/overload.hpp \
+ C:/boost/include/boost/preprocessor/variadic/size.hpp \
+ C:/boost/include/boost/preprocessor/tuple/rem.hpp \
+ C:/boost/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
+ C:/boost/include/boost/preprocessor/variadic/elem.hpp \
+ C:/boost/include/boost/preprocessor/arithmetic/sub.hpp \
+ C:/boost/include/boost/mpl/aux_/config/overload_resolution.hpp \
+ C:/boost/include/boost/mpl/aux_/lambda_support.hpp \
+ C:/boost/include/boost/mpl/assert.hpp C:/boost/include/boost/mpl/not.hpp \
+ C:/boost/include/boost/mpl/aux_/nested_type_wknd.hpp \
+ C:/boost/include/boost/mpl/aux_/yes_no.hpp \
+ C:/boost/include/boost/mpl/aux_/config/arrays.hpp \
+ C:/boost/include/boost/mpl/aux_/config/gpu.hpp \
+ C:/boost/include/boost/mpl/aux_/config/pp_counter.hpp \
+ C:/boost/include/boost/mpl/logical.hpp C:/boost/include/boost/mpl/or.hpp \
+ C:/boost/include/boost/mpl/aux_/config/use_preprocessed.hpp \
+ C:/boost/include/boost/mpl/aux_/include_preprocessed.hpp \
+ C:/boost/include/boost/mpl/aux_/config/compiler.hpp \
+ C:/boost/include/boost/preprocessor/stringize.hpp \
+ C:/boost/include/boost/mpl/aux_/preprocessed/gcc/or.hpp \
+ C:/boost/include/boost/mpl/and.hpp \
+ C:/boost/include/boost/mpl/aux_/preprocessed/gcc/and.hpp \
+ C:/boost/include/boost/mpl/eval_if.hpp \
+ C:/boost/include/boost/noncopyable.hpp \
+ C:/boost/include/boost/core/noncopyable.hpp \
+ C:/boost/include/boost/range/end.hpp \
+ C:/boost/include/boost/range/config.hpp \
+ C:/boost/include/boost/range/detail/implementation_help.hpp \
+ C:/boost/include/boost/range/detail/common.hpp \
+ C:/boost/include/boost/range/detail/sfinae.hpp \
+ C:/boost/include/boost/type_traits/is_array.hpp \
+ C:/boost/include/boost/type_traits/integral_constant.hpp \
+ C:/boost/include/boost/type_traits/detail/yes_no_type.hpp \
+ C:/boost/include/boost/type_traits/is_void.hpp \
+ C:/boost/include/boost/type_traits/is_same.hpp \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/string.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h \
+ C:/boost/include/boost/range/iterator.hpp \
+ C:/boost/include/boost/range/range_fwd.hpp \
+ C:/boost/include/boost/range/mutable_iterator.hpp \
+ C:/boost/include/boost/range/detail/extract_optional_type.hpp \
+ C:/boost/include/boost/mpl/has_xxx.hpp \
+ C:/boost/include/boost/mpl/aux_/type_wrapper.hpp \
+ C:/boost/include/boost/mpl/aux_/config/has_xxx.hpp \
+ C:/boost/include/boost/mpl/aux_/config/msvc_typename.hpp \
+ C:/boost/include/boost/preprocessor/array/elem.hpp \
+ C:/boost/include/boost/preprocessor/array/data.hpp \
+ C:/boost/include/boost/preprocessor/array/size.hpp \
+ C:/boost/include/boost/preprocessor/repetition/enum_params.hpp \
+ C:/boost/include/boost/preprocessor/repetition/enum_trailing_params.hpp \
+ C:/boost/include/boost/type_traits/remove_reference.hpp \
+ C:/boost/include/boost/iterator/iterator_traits.hpp \
+ C:/boost/include/boost/detail/iterator.hpp \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/iterator \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ostream \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ios \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/ios_base.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/locale_classes.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/locale_classes.tcc \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/system_error \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/stdexcept \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/streambuf \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/streambuf.tcc \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/basic_ios.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/locale_facets.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cwctype \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/wctype.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/streambuf_iterator.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/locale_facets.tcc \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/basic_ios.tcc \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/ostream.tcc \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/istream \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/istream.tcc \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stream_iterator.h \
+ C:/boost/include/boost/range/detail/msvc_has_iterator_workaround.hpp \
+ C:/boost/include/boost/range/const_iterator.hpp \
+ C:/boost/include/boost/type_traits/remove_const.hpp \
+ C:/boost/include/boost/type_traits/is_const.hpp \
+ C:/boost/include/boost/range/begin.hpp \
+ C:/boost/include/boost/range/rend.hpp \
+ C:/boost/include/boost/range/reverse_iterator.hpp \
+ C:/boost/include/boost/iterator/reverse_iterator.hpp \
+ C:/boost/include/boost/next_prior.hpp \
+ C:/boost/include/boost/type_traits/is_unsigned.hpp \
+ C:/boost/include/boost/type_traits/is_integral.hpp \
+ C:/boost/include/boost/type_traits/is_enum.hpp \
+ C:/boost/include/boost/type_traits/intrinsics.hpp \
+ C:/boost/include/boost/type_traits/detail/config.hpp \
+ C:/boost/include/boost/version.hpp \
+ C:/boost/include/boost/type_traits/remove_cv.hpp \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/climits \
+ C:/boost/include/boost/type_traits/integral_promotion.hpp \
+ C:/boost/include/boost/type_traits/is_volatile.hpp \
+ C:/boost/include/boost/type_traits/make_signed.hpp \
+ C:/boost/include/boost/type_traits/conditional.hpp \
+ C:/boost/include/boost/type_traits/is_signed.hpp \
+ C:/boost/include/boost/type_traits/add_const.hpp \
+ C:/boost/include/boost/type_traits/add_volatile.hpp \
+ C:/boost/include/boost/static_assert.hpp \
+ C:/boost/include/boost/type_traits/has_plus.hpp \
+ C:/boost/include/boost/type_traits/detail/has_binary_operator.hpp \
+ C:/boost/include/boost/type_traits/is_base_of.hpp \
+ C:/boost/include/boost/type_traits/is_base_and_derived.hpp \
+ C:/boost/include/boost/type_traits/is_class.hpp \
+ C:/boost/include/boost/type_traits/is_convertible.hpp \
+ C:/boost/include/boost/type_traits/is_arithmetic.hpp \
+ C:/boost/include/boost/type_traits/is_floating_point.hpp \
+ C:/boost/include/boost/type_traits/is_abstract.hpp \
+ C:/boost/include/boost/type_traits/add_lvalue_reference.hpp \
+ C:/boost/include/boost/type_traits/add_reference.hpp \
+ C:/boost/include/boost/type_traits/add_rvalue_reference.hpp \
+ C:/boost/include/boost/type_traits/is_reference.hpp \
+ C:/boost/include/boost/type_traits/is_lvalue_reference.hpp \
+ C:/boost/include/boost/type_traits/is_rvalue_reference.hpp \
+ C:/boost/include/boost/type_traits/is_function.hpp \
+ C:/boost/include/boost/type_traits/detail/is_function_ptr_helper.hpp \
+ C:/boost/include/boost/type_traits/declval.hpp \
+ C:/boost/include/boost/type_traits/is_fundamental.hpp \
+ C:/boost/include/boost/type_traits/is_pointer.hpp \
+ C:/boost/include/boost/type_traits/remove_pointer.hpp \
+ C:/boost/include/boost/type_traits/has_plus_assign.hpp \
+ C:/boost/include/boost/type_traits/has_minus.hpp \
+ C:/boost/include/boost/type_traits/has_minus_assign.hpp \
+ C:/boost/include/boost/iterator.hpp \
+ C:/boost/include/boost/iterator/iterator_adaptor.hpp \
+ C:/boost/include/boost/iterator/iterator_categories.hpp \
+ C:/boost/include/boost/iterator/detail/config_def.hpp \
+ C:/boost/include/boost/mpl/identity.hpp \
+ C:/boost/include/boost/mpl/placeholders.hpp \
+ C:/boost/include/boost/mpl/arg.hpp \
+ C:/boost/include/boost/mpl/arg_fwd.hpp \
+ C:/boost/include/boost/mpl/aux_/na_assert.hpp \
+ C:/boost/include/boost/mpl/aux_/arity_spec.hpp \
+ C:/boost/include/boost/mpl/aux_/arg_typedef.hpp \
+ C:/boost/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp \
+ C:/boost/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp \
+ C:/boost/include/boost/iterator/detail/config_undef.hpp \
+ C:/boost/include/boost/iterator/iterator_facade.hpp \
+ C:/boost/include/boost/iterator/interoperable.hpp \
+ C:/boost/include/boost/iterator/detail/facade_iterator_category.hpp \
+ C:/boost/include/boost/detail/indirect_traits.hpp \
+ C:/boost/include/boost/type_traits/is_member_function_pointer.hpp \
+ C:/boost/include/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp \
+ C:/boost/include/boost/type_traits/is_member_pointer.hpp \
+ C:/boost/include/boost/iterator/detail/enable_if.hpp \
+ C:/boost/include/boost/utility/addressof.hpp \
+ C:/boost/include/boost/core/addressof.hpp \
+ C:/boost/include/boost/type_traits/add_pointer.hpp \
+ C:/boost/include/boost/type_traits/is_pod.hpp \
+ C:/boost/include/boost/type_traits/is_scalar.hpp \
+ C:/boost/include/boost/mpl/always.hpp \
+ C:/boost/include/boost/mpl/aux_/preprocessor/default_params.hpp \
+ C:/boost/include/boost/mpl/apply.hpp \
+ C:/boost/include/boost/mpl/apply_fwd.hpp \
+ C:/boost/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp \
+ C:/boost/include/boost/mpl/apply_wrap.hpp \
+ C:/boost/include/boost/mpl/aux_/has_apply.hpp \
+ C:/boost/include/boost/mpl/aux_/config/has_apply.hpp \
+ C:/boost/include/boost/mpl/aux_/msvc_never_true.hpp \
+ C:/boost/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp \
+ C:/boost/include/boost/mpl/lambda.hpp \
+ C:/boost/include/boost/mpl/bind.hpp \
+ C:/boost/include/boost/mpl/bind_fwd.hpp \
+ C:/boost/include/boost/mpl/aux_/config/bind.hpp \
+ C:/boost/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp \
+ C:/boost/include/boost/mpl/next.hpp \
+ C:/boost/include/boost/mpl/next_prior.hpp \
+ C:/boost/include/boost/mpl/aux_/common_name_wknd.hpp \
+ C:/boost/include/boost/mpl/protect.hpp \
+ C:/boost/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp \
+ C:/boost/include/boost/mpl/aux_/full_lambda.hpp \
+ C:/boost/include/boost/mpl/quote.hpp C:/boost/include/boost/mpl/void.hpp \
+ C:/boost/include/boost/mpl/aux_/has_type.hpp \
+ C:/boost/include/boost/mpl/aux_/config/bcc.hpp \
+ C:/boost/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp \
+ C:/boost/include/boost/mpl/aux_/template_arity.hpp \
+ C:/boost/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp \
+ C:/boost/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp \
+ C:/boost/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp \
+ C:/boost/include/boost/range/rbegin.hpp \
+ C:/boost/include/boost/foreach_fwd.hpp \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/sstream \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/sstream.tcc \
+ C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/typeinfo \
+ ../../src/Logger.hpp
+
+../../src/Notifier.hpp:
+
+../../src/Config.hpp:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/vadefs.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/string:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stringfwd.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/memoryfwd.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/char_traits.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_algobase.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/functexcept.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/exception_defines.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/cpp_type_traits.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/type_traits.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/numeric_traits.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_pair.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/move.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/concept_check.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/type_traits:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_iterator_base_types.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_iterator_base_funcs.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/debug/assertions.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_iterator.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/ptr_traits.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/debug/debug.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/predefined_ops.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/postypes.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cwchar:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/wchar.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/crtdefs.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_print_push.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/swprintf.inl:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/wchar_s.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_print_pop.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cstdint:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/stdint.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/stdint.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/stddef.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/stddef.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/allocator.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/new_allocator.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/new:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/exception:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/atomic_lockfree_defines.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/exception_ptr.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/nested_exception.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/localefwd.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/clocale:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/locale.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/stdio.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/iosfwd:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cctype:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/ctype.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/ostream_insert.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/cxxabi_forced.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_function.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/backward/binders.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/range_access.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/initializer_list:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/basic_string.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/atomicity.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pthread.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/errno.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sys/types.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/process.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed/limits.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed/syslimits.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/limits.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/signal.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pthread_signal.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sys/timeb.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pthread_compat.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/alloc_traits.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/alloc_traits.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ext/string_conversions.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cstdlib:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/stdlib.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/stdlib_s.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/stdlib.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/malloc.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cstdio:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cerrno:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/functional_hash.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/hash_bytes.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/basic_string.tcc:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/vector:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_construct.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_uninitialized.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_vector.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_bvector.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/vector.tcc:
+
+../../src/Observer.hpp:
+
+C:/boost/include/boost/foreach.hpp:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cstddef:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/utility:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stl_relops.h:
+
+C:/boost/include/boost/config.hpp:
+
+C:/boost/include/boost/config/user.hpp:
+
+C:/boost/include/boost/config/select_compiler_config.hpp:
+
+C:/boost/include/boost/config/compiler/gcc.hpp:
+
+C:/boost/include/boost/config/select_stdlib_config.hpp:
+
+C:/boost/include/boost/config/stdlib/libstdcpp3.hpp:
+
+C:/boost/include/boost/config/select_platform_config.hpp:
+
+C:/boost/include/boost/config/platform/win32.hpp:
+
+C:/boost/include/boost/config/suffix.hpp:
+
+C:/boost/include/boost/detail/workaround.hpp:
+
+C:/boost/include/boost/mpl/if.hpp:
+
+C:/boost/include/boost/mpl/aux_/value_wknd.hpp:
+
+C:/boost/include/boost/mpl/aux_/static_cast.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/workaround.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/integral.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/msvc.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/eti.hpp:
+
+C:/boost/include/boost/mpl/aux_/na_spec.hpp:
+
+C:/boost/include/boost/mpl/lambda_fwd.hpp:
+
+C:/boost/include/boost/mpl/void_fwd.hpp:
+
+C:/boost/include/boost/mpl/aux_/adl_barrier.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/adl.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/intel.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/gcc.hpp:
+
+C:/boost/include/boost/mpl/aux_/na.hpp:
+
+C:/boost/include/boost/mpl/bool.hpp:
+
+C:/boost/include/boost/mpl/bool_fwd.hpp:
+
+C:/boost/include/boost/mpl/integral_c_tag.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/static_constant.hpp:
+
+C:/boost/include/boost/mpl/aux_/na_fwd.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/ctps.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/lambda.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/ttp.hpp:
+
+C:/boost/include/boost/mpl/int.hpp:
+
+C:/boost/include/boost/mpl/int_fwd.hpp:
+
+C:/boost/include/boost/mpl/aux_/nttp_decl.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/nttp.hpp:
+
+C:/boost/include/boost/mpl/aux_/integral_wrapper.hpp:
+
+C:/boost/include/boost/preprocessor/cat.hpp:
+
+C:/boost/include/boost/preprocessor/config/config.hpp:
+
+C:/boost/include/boost/mpl/aux_/lambda_arity_param.hpp:
+
+C:/boost/include/boost/mpl/aux_/template_arity_fwd.hpp:
+
+C:/boost/include/boost/mpl/aux_/arity.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/dtp.hpp:
+
+C:/boost/include/boost/mpl/aux_/preprocessor/params.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/preprocessor.hpp:
+
+C:/boost/include/boost/preprocessor/comma_if.hpp:
+
+C:/boost/include/boost/preprocessor/punctuation/comma_if.hpp:
+
+C:/boost/include/boost/preprocessor/control/if.hpp:
+
+C:/boost/include/boost/preprocessor/control/iif.hpp:
+
+C:/boost/include/boost/preprocessor/logical/bool.hpp:
+
+C:/boost/include/boost/preprocessor/facilities/empty.hpp:
+
+C:/boost/include/boost/preprocessor/punctuation/comma.hpp:
+
+C:/boost/include/boost/preprocessor/repeat.hpp:
+
+C:/boost/include/boost/preprocessor/repetition/repeat.hpp:
+
+C:/boost/include/boost/preprocessor/debug/error.hpp:
+
+C:/boost/include/boost/preprocessor/detail/auto_rec.hpp:
+
+C:/boost/include/boost/preprocessor/tuple/eat.hpp:
+
+C:/boost/include/boost/preprocessor/inc.hpp:
+
+C:/boost/include/boost/preprocessor/arithmetic/inc.hpp:
+
+C:/boost/include/boost/mpl/aux_/preprocessor/enum.hpp:
+
+C:/boost/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
+
+C:/boost/include/boost/mpl/limits/arity.hpp:
+
+C:/boost/include/boost/preprocessor/logical/and.hpp:
+
+C:/boost/include/boost/preprocessor/logical/bitand.hpp:
+
+C:/boost/include/boost/preprocessor/identity.hpp:
+
+C:/boost/include/boost/preprocessor/facilities/identity.hpp:
+
+C:/boost/include/boost/preprocessor/empty.hpp:
+
+C:/boost/include/boost/preprocessor/arithmetic/add.hpp:
+
+C:/boost/include/boost/preprocessor/arithmetic/dec.hpp:
+
+C:/boost/include/boost/preprocessor/control/while.hpp:
+
+C:/boost/include/boost/preprocessor/list/fold_left.hpp:
+
+C:/boost/include/boost/preprocessor/list/detail/fold_left.hpp:
+
+C:/boost/include/boost/preprocessor/control/expr_iif.hpp:
+
+C:/boost/include/boost/preprocessor/list/adt.hpp:
+
+C:/boost/include/boost/preprocessor/detail/is_binary.hpp:
+
+C:/boost/include/boost/preprocessor/detail/check.hpp:
+
+C:/boost/include/boost/preprocessor/logical/compl.hpp:
+
+C:/boost/include/boost/preprocessor/list/fold_right.hpp:
+
+C:/boost/include/boost/preprocessor/list/detail/fold_right.hpp:
+
+C:/boost/include/boost/preprocessor/list/reverse.hpp:
+
+C:/boost/include/boost/preprocessor/control/detail/while.hpp:
+
+C:/boost/include/boost/preprocessor/tuple/elem.hpp:
+
+C:/boost/include/boost/preprocessor/facilities/expand.hpp:
+
+C:/boost/include/boost/preprocessor/facilities/overload.hpp:
+
+C:/boost/include/boost/preprocessor/variadic/size.hpp:
+
+C:/boost/include/boost/preprocessor/tuple/rem.hpp:
+
+C:/boost/include/boost/preprocessor/tuple/detail/is_single_return.hpp:
+
+C:/boost/include/boost/preprocessor/variadic/elem.hpp:
+
+C:/boost/include/boost/preprocessor/arithmetic/sub.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/overload_resolution.hpp:
+
+C:/boost/include/boost/mpl/aux_/lambda_support.hpp:
+
+C:/boost/include/boost/mpl/assert.hpp:
+
+C:/boost/include/boost/mpl/not.hpp:
+
+C:/boost/include/boost/mpl/aux_/nested_type_wknd.hpp:
+
+C:/boost/include/boost/mpl/aux_/yes_no.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/arrays.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/gpu.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/pp_counter.hpp:
+
+C:/boost/include/boost/mpl/logical.hpp:
+
+C:/boost/include/boost/mpl/or.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/use_preprocessed.hpp:
+
+C:/boost/include/boost/mpl/aux_/include_preprocessed.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/compiler.hpp:
+
+C:/boost/include/boost/preprocessor/stringize.hpp:
+
+C:/boost/include/boost/mpl/aux_/preprocessed/gcc/or.hpp:
+
+C:/boost/include/boost/mpl/and.hpp:
+
+C:/boost/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
+
+C:/boost/include/boost/mpl/eval_if.hpp:
+
+C:/boost/include/boost/noncopyable.hpp:
+
+C:/boost/include/boost/core/noncopyable.hpp:
+
+C:/boost/include/boost/range/end.hpp:
+
+C:/boost/include/boost/range/config.hpp:
+
+C:/boost/include/boost/range/detail/implementation_help.hpp:
+
+C:/boost/include/boost/range/detail/common.hpp:
+
+C:/boost/include/boost/range/detail/sfinae.hpp:
+
+C:/boost/include/boost/type_traits/is_array.hpp:
+
+C:/boost/include/boost/type_traits/integral_constant.hpp:
+
+C:/boost/include/boost/type_traits/detail/yes_no_type.hpp:
+
+C:/boost/include/boost/type_traits/is_void.hpp:
+
+C:/boost/include/boost/type_traits/is_same.hpp:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/string.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sec_api/string_s.h:
+
+C:/boost/include/boost/range/iterator.hpp:
+
+C:/boost/include/boost/range/range_fwd.hpp:
+
+C:/boost/include/boost/range/mutable_iterator.hpp:
+
+C:/boost/include/boost/range/detail/extract_optional_type.hpp:
+
+C:/boost/include/boost/mpl/has_xxx.hpp:
+
+C:/boost/include/boost/mpl/aux_/type_wrapper.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/has_xxx.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/msvc_typename.hpp:
+
+C:/boost/include/boost/preprocessor/array/elem.hpp:
+
+C:/boost/include/boost/preprocessor/array/data.hpp:
+
+C:/boost/include/boost/preprocessor/array/size.hpp:
+
+C:/boost/include/boost/preprocessor/repetition/enum_params.hpp:
+
+C:/boost/include/boost/preprocessor/repetition/enum_trailing_params.hpp:
+
+C:/boost/include/boost/type_traits/remove_reference.hpp:
+
+C:/boost/include/boost/iterator/iterator_traits.hpp:
+
+C:/boost/include/boost/detail/iterator.hpp:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/iterator:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ostream:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/ios:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/ios_base.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/locale_classes.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/locale_classes.tcc:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/system_error:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/stdexcept:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/streambuf:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/streambuf.tcc:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/basic_ios.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/locale_facets.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/cwctype:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/wctype.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/streambuf_iterator.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/locale_facets.tcc:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/basic_ios.tcc:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/ostream.tcc:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/istream:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/istream.tcc:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/stream_iterator.h:
+
+C:/boost/include/boost/range/detail/msvc_has_iterator_workaround.hpp:
+
+C:/boost/include/boost/range/const_iterator.hpp:
+
+C:/boost/include/boost/type_traits/remove_const.hpp:
+
+C:/boost/include/boost/type_traits/is_const.hpp:
+
+C:/boost/include/boost/range/begin.hpp:
+
+C:/boost/include/boost/range/rend.hpp:
+
+C:/boost/include/boost/range/reverse_iterator.hpp:
+
+C:/boost/include/boost/iterator/reverse_iterator.hpp:
+
+C:/boost/include/boost/next_prior.hpp:
+
+C:/boost/include/boost/type_traits/is_unsigned.hpp:
+
+C:/boost/include/boost/type_traits/is_integral.hpp:
+
+C:/boost/include/boost/type_traits/is_enum.hpp:
+
+C:/boost/include/boost/type_traits/intrinsics.hpp:
+
+C:/boost/include/boost/type_traits/detail/config.hpp:
+
+C:/boost/include/boost/version.hpp:
+
+C:/boost/include/boost/type_traits/remove_cv.hpp:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/climits:
+
+C:/boost/include/boost/type_traits/integral_promotion.hpp:
+
+C:/boost/include/boost/type_traits/is_volatile.hpp:
+
+C:/boost/include/boost/type_traits/make_signed.hpp:
+
+C:/boost/include/boost/type_traits/conditional.hpp:
+
+C:/boost/include/boost/type_traits/is_signed.hpp:
+
+C:/boost/include/boost/type_traits/add_const.hpp:
+
+C:/boost/include/boost/type_traits/add_volatile.hpp:
+
+C:/boost/include/boost/static_assert.hpp:
+
+C:/boost/include/boost/type_traits/has_plus.hpp:
+
+C:/boost/include/boost/type_traits/detail/has_binary_operator.hpp:
+
+C:/boost/include/boost/type_traits/is_base_of.hpp:
+
+C:/boost/include/boost/type_traits/is_base_and_derived.hpp:
+
+C:/boost/include/boost/type_traits/is_class.hpp:
+
+C:/boost/include/boost/type_traits/is_convertible.hpp:
+
+C:/boost/include/boost/type_traits/is_arithmetic.hpp:
+
+C:/boost/include/boost/type_traits/is_floating_point.hpp:
+
+C:/boost/include/boost/type_traits/is_abstract.hpp:
+
+C:/boost/include/boost/type_traits/add_lvalue_reference.hpp:
+
+C:/boost/include/boost/type_traits/add_reference.hpp:
+
+C:/boost/include/boost/type_traits/add_rvalue_reference.hpp:
+
+C:/boost/include/boost/type_traits/is_reference.hpp:
+
+C:/boost/include/boost/type_traits/is_lvalue_reference.hpp:
+
+C:/boost/include/boost/type_traits/is_rvalue_reference.hpp:
+
+C:/boost/include/boost/type_traits/is_function.hpp:
+
+C:/boost/include/boost/type_traits/detail/is_function_ptr_helper.hpp:
+
+C:/boost/include/boost/type_traits/declval.hpp:
+
+C:/boost/include/boost/type_traits/is_fundamental.hpp:
+
+C:/boost/include/boost/type_traits/is_pointer.hpp:
+
+C:/boost/include/boost/type_traits/remove_pointer.hpp:
+
+C:/boost/include/boost/type_traits/has_plus_assign.hpp:
+
+C:/boost/include/boost/type_traits/has_minus.hpp:
+
+C:/boost/include/boost/type_traits/has_minus_assign.hpp:
+
+C:/boost/include/boost/iterator.hpp:
+
+C:/boost/include/boost/iterator/iterator_adaptor.hpp:
+
+C:/boost/include/boost/iterator/iterator_categories.hpp:
+
+C:/boost/include/boost/iterator/detail/config_def.hpp:
+
+C:/boost/include/boost/mpl/identity.hpp:
+
+C:/boost/include/boost/mpl/placeholders.hpp:
+
+C:/boost/include/boost/mpl/arg.hpp:
+
+C:/boost/include/boost/mpl/arg_fwd.hpp:
+
+C:/boost/include/boost/mpl/aux_/na_assert.hpp:
+
+C:/boost/include/boost/mpl/aux_/arity_spec.hpp:
+
+C:/boost/include/boost/mpl/aux_/arg_typedef.hpp:
+
+C:/boost/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp:
+
+C:/boost/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:
+
+C:/boost/include/boost/iterator/detail/config_undef.hpp:
+
+C:/boost/include/boost/iterator/iterator_facade.hpp:
+
+C:/boost/include/boost/iterator/interoperable.hpp:
+
+C:/boost/include/boost/iterator/detail/facade_iterator_category.hpp:
+
+C:/boost/include/boost/detail/indirect_traits.hpp:
+
+C:/boost/include/boost/type_traits/is_member_function_pointer.hpp:
+
+C:/boost/include/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp:
+
+C:/boost/include/boost/type_traits/is_member_pointer.hpp:
+
+C:/boost/include/boost/iterator/detail/enable_if.hpp:
+
+C:/boost/include/boost/utility/addressof.hpp:
+
+C:/boost/include/boost/core/addressof.hpp:
+
+C:/boost/include/boost/type_traits/add_pointer.hpp:
+
+C:/boost/include/boost/type_traits/is_pod.hpp:
+
+C:/boost/include/boost/type_traits/is_scalar.hpp:
+
+C:/boost/include/boost/mpl/always.hpp:
+
+C:/boost/include/boost/mpl/aux_/preprocessor/default_params.hpp:
+
+C:/boost/include/boost/mpl/apply.hpp:
+
+C:/boost/include/boost/mpl/apply_fwd.hpp:
+
+C:/boost/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp:
+
+C:/boost/include/boost/mpl/apply_wrap.hpp:
+
+C:/boost/include/boost/mpl/aux_/has_apply.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/has_apply.hpp:
+
+C:/boost/include/boost/mpl/aux_/msvc_never_true.hpp:
+
+C:/boost/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
+
+C:/boost/include/boost/mpl/lambda.hpp:
+
+C:/boost/include/boost/mpl/bind.hpp:
+
+C:/boost/include/boost/mpl/bind_fwd.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/bind.hpp:
+
+C:/boost/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp:
+
+C:/boost/include/boost/mpl/next.hpp:
+
+C:/boost/include/boost/mpl/next_prior.hpp:
+
+C:/boost/include/boost/mpl/aux_/common_name_wknd.hpp:
+
+C:/boost/include/boost/mpl/protect.hpp:
+
+C:/boost/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp:
+
+C:/boost/include/boost/mpl/aux_/full_lambda.hpp:
+
+C:/boost/include/boost/mpl/quote.hpp:
+
+C:/boost/include/boost/mpl/void.hpp:
+
+C:/boost/include/boost/mpl/aux_/has_type.hpp:
+
+C:/boost/include/boost/mpl/aux_/config/bcc.hpp:
+
+C:/boost/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
+
+C:/boost/include/boost/mpl/aux_/template_arity.hpp:
+
+C:/boost/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp:
+
+C:/boost/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
+
+C:/boost/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp:
+
+C:/boost/include/boost/range/rbegin.hpp:
+
+C:/boost/include/boost/foreach_fwd.hpp:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/sstream:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/bits/sstream.tcc:
+
+C:/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/6.2.0/include/c++/typeinfo:
+
+../../src/Logger.hpp:

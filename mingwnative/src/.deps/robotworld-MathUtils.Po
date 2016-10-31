@@ -1,0 +1,24 @@
+robotworld-MathUtils.o: ../../src/MathUtils.cpp ../../src/MathUtils.hpp \
+ ../../src/Config.hpp \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
+ C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h
+
+../../src/MathUtils.hpp:
+
+../../src/Config.hpp:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/vadefs.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h:
+
+C:/mingw-w64/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
