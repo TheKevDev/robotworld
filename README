@@ -1,0 +1,145 @@
+
+
+Note: 	- "\" means that the actual command line continues with the next line!
+		- All command sequences start from the root of the project, $ROBOTWORLD_ROOT in the examples
+		- The exact name of the platform compilation directories are irrelevant but using mingw(native/cross), linux or mac is advised.		
+		- Adjust all paths to taste
+		- Adjust for any Boost and wxWidgets versions
+		- On Windows, use a MinGW MSys command shell, *NOT* a Windows cmd shell.
+		- Use an "Empty Makefile" project as project template for Eclipse and change the build directory 
+		  to the platform compilation directory in the project settings	 
+		- If the configure script is missing or out of sync with the installed MSys files, run the following commands in the root of the project (or use the autogen.sh script):
+			libtoolize --force --copy
+			aclocal -I ./m4
+			autoconf -I ./m4
+			automake --force-missing --copy --add-missing --foreign
+
+
+1. Compilation
+
+*** Compilation on Linux *** 
+
+On Linux, compiling for Linux if both wxWidgets and Boost are *installed* in the OS in their *default* location,
+the configure script finds Boost and wxWidgets automatically:
+
+	cd $ROBOTWORLD_ROOT
+	mkdir linux
+	cd linux
+	../configure
+	make
+
+On Linux, compiling for Linux if both wxWidgets and Boost are *installed* in the OS in a *non-default* location,
+the configure script must be told where to find Boost and wxWidgets:
+
+	cd $ROBOTWORLD_ROOT
+	mkdir linux
+	cd linux
+	../configure --with-wx-config=/home/jkr/devlib/wxWidgets-3.0.2/bin/wx-config --with-boost=/home/jkr/devlib/boost_1_56_0
+	make
+	
+NB: 1. adjust the paths to taste
+	2. The BOOST_ROOT path should point at the root directory of an installed Boost, having the following structure:
+		\include
+			\boost-1_56
+				\boost (contains headers, e.g. version.hpp,  and the sub-directories of the libraries) 
+		\lib (contains the libraries)
+	3. The --with-wx-config path should point to the wx-config file in the installation directory of wxWidgets 
+	
+	
+On Linux, compiling for Linux if both wxWidgets and Boost are compiled but *NOT installed* (e.g. development versions of wxWidgets and Boost is staged),
+the configure script must be told where to find Boost and wxWidgets:
+
+	cd $ROBOTWORLD_ROOT
+	mkdir linux
+	cd linux
+	export BOOST_ROOT=/home/jkr/src/boost_1_56_0
+	../configure 	--with-wx-config=/home/jkr/src/wxWidgets-3.0.2/linux/wx-config	\ 
+					--with-boost 
+	make
+	
+
+NB: 1. adjust the paths to taste
+	2. The BOOST_ROOT path should point at the root directory of a "staged" boost, i.e. with a "staged" directory in it.
+	3. The --with-wx-config path should point to the wx-config file in the bin directory of the installation directory of wxWidgets 
+	
+	
+On Linux, cross compile to Windows with wxWidgets and Boost *installed* in the given directories,
+the configure script must be told where to find Boost and wxWidgets and the cross compiler to use:
+	
+	cd $ROBOTWORLD_ROOT
+	mkdir mingwcross
+	cd mingwcross	
+	../configure 	--host=i686-w64-mingw32	\
+					--with-boost=/home/jkr/mingw/boost	\
+					--with-wx-config=/home/jkr/mingw/wxwidgets/bin/wx-config	
+	make
+	
+NB: 1. this assumes a fully installed and working i686-w64-mingw32 compiler in the path, 
+	2. adjust the paths to taste.
+	3. adjust the host to taste, according to the mingw cross compiler.
+	
+*** Compilation on Windows *** 
+	
+On Windows, compiling for Windows if both wxWidgets and Boost are *installed* in the OS in their *default* location,
+the configure script finds Boost and wxWidgets automatically, using the MinGW command prompt:
+
+	cd $ROBOTWORLD_ROOT
+	mkdir mingwnative
+	cd mingwnative
+	../configure
+	make
+	
+On Windows, compiling for Windows if both wxWidgets and Boost are *installed* in a *non-default* location,
+using the MinGW command prompt:
+
+	cd $ROBOTWORLD_ROOT
+	mkdir mingwnative
+	cd mingwnative
+		../configure 	--with-wx-config=/drive/path/to/root/of/wxWidgets/bin/wx-config	\ 
+						--with-boost=/drive/path/to/root/of/boost
+	make
+	
+NB: 1. adjust the paths to taste
+	2. The BOOST_ROOT path should point at the root directory of an installed Boost, having the following structure:
+		\include
+			\boost-1_56
+				\boost (contains headers, e.g. version.hpp,  and the sub-directories of the libraries) 
+		\lib (contains the libraries)
+	3. The --with-wx-config path should point to the wx-config file in the bin directory of the installation directory of wxWidgets 
+	
+
+On Windows, compiling for Windows if both wxWidgets and Boost are compiled but *NOT installed* (e.g. development versions of wxWidgets and Boost is staged),
+the configure script must be told where to find Boost and wxWidgets, using the MinGW command prompt:
+
+	cd $ROBOTWORLD_ROOT
+	mkdir mingwnative
+	cd mingwnative
+	export BOOST_ROOT=/d/src/boost_1_56_0
+	../configure 	--with-wx-config=/d/src/wxWidgets-3.0.2/mingw/wx-config	\ 
+					--with-boost 
+	make
+	
+NB: 1. This assumes a working fully installed gcc compiler in the path.
+	2. adjust the paths to taste
+	3. The BOOST_ROOT path should point at the root directory of a "staged" boost, i.e. with a "staged" directory in it.
+	4. The --with-wx-config path should point to the wx-config file in the compilation directory of wxWidgets 
+	
+
+2. Eclipse instructions
+
+If using Makefiles to compile programs Eclipse (i.e. its indexer with auto-complete feature, code browsing etc)  does 
+not use auto-discovery features for #includes and #defines. This must be configured manually. 
+
+This must be done in the "Paths and Symbols" part of the project settings:
+"Project->properties->C/C++ General->Paths and Symbols" on the tabs "includes" and "symbols"
+
+Remarks:
+- If Boost and wxWidgets are installed, one only has to configure the wxWidgets defines (-D in the output, see below)
+- If one of them is not installed one has to configure that include directories also
+- Use "wx-config --cppflags" for the relevant wxWidgets values
+- Use the root directory of a staged Boost version 
+- Use -std=c++11 for the indexer and not -std=gnu++11 if the C++ standard headers are not resolved
+- Use "Window->Show view->Other->C/C++ index" to find any unresolved header files or unresolved other C/C++ symbols.
+
+
+  
