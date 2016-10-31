@@ -362,6 +362,14 @@ namespace Model
 				aMessage.setBody( ": case 1 " + aMessage.asString());
 				break;
 			}
+			case RequestWorld:
+			{
+				Application::Logger::log( __PRETTY_FUNCTION__ + std::string(": Ik ga dit request nu verwerken."));
+
+				aMessage.setMessageType(RequestWorld);
+				aMessage.setBody(getRobotData());
+				break;
+			}
 			default:
 			{
 				Application::Logger::log( __PRETTY_FUNCTION__ + std::string(": default"));
@@ -384,6 +392,13 @@ namespace Model
 
 				break;
 			}
+
+			case RequestWorld:
+			{
+				Application::Logger::log( __PRETTY_FUNCTION__ + std::string(": De response is op dit adres aangekomen.") + aMessage.asString());
+				break;
+			}
+
 			default:
 			{
 				Application::Logger::log( __PRETTY_FUNCTION__ + std::string( ": default not implemented, ") + aMessage.asString());
@@ -523,6 +538,16 @@ namespace Model
 			}
 		}
 		return false;
+	}
+
+	std::string Robot::getRobotData() const{
+		std::ostringstream os;
+		os 	<< std::to_string(position.x)<<  ","
+			<< std::to_string(position.y)<<  ","
+			<<std::to_string(front.x)<<  ","
+			<<std::to_string(front.y)<<  ","
+			<<std::to_string(speed);
+		return os.str();
 	}
 
 } // namespace Model

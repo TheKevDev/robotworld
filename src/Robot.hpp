@@ -243,10 +243,13 @@ namespace Model
 			 * @name The types of messages a Robot should understand
 			 */
 			//@{
+
+			std::string getRobotData() const;
 			enum MessageType
 			{
 				EchoRequest,
-				EchoResponse
+				EchoResponse,
+				RequestWorld
 			};
 
 		protected:
