@@ -373,7 +373,7 @@ namespace Application
 	 */
 	void MainFrameWindow::OnPopulate( CommandEvent& UNUSEDPARAM(anEvent))
 	{
-		robotWorldCanvas->populate( 1);
+		robotWorldCanvas->populate(1);
 	}
 	/**
 	 *
@@ -439,32 +439,7 @@ namespace Application
 		Model::RobotPtr robot = Model::RobotWorld::getRobotWorld().getRobot( "Robot");
 				if (robot)
 				{
-					std::string remoteIpAdres = "localhost";
-					std::string remotePort = "12346";
-
-					if (MainApplication::isArgGiven( "-robot_type"))
-					{
-						if(MainApplication::getArg( "-robot_type").value == "client") {
-							remotePort = "12345";
-						}
-					}
-
-					if (MainApplication::isArgGiven( "-remote_ip"))
-					{
-						remoteIpAdres = MainApplication::getArg( "-remote_ip").value;
-					}
-					if (MainApplication::isArgGiven( "-remote_port"))
-					{
-						remotePort = MainApplication::getArg( "-remote_port").value;
-					}
-
-					// We will request an echo message. The response will be "Hello World", if all goes OK,
-					// "Goodbye cruel world!" if something went wrong.
-					Messaging::Client c1ient( remoteIpAdres,
-											  remotePort,
-											  robot);
-					Messaging::Message message( Model::Robot::MessageType::RequestWorld, "Mag ik jouw data?");
-					c1ient.dispatchMessage( message);
+					robot->sync(robot);
 				}
 		}
 

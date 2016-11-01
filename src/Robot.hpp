@@ -256,6 +256,26 @@ namespace Model
 				SendWallLocation
 			};
 
+			/**
+			 *
+			 */
+			void sendLocation();
+			/**
+			 * parse incoming world message
+			 * @param message
+			 */
+			void parseWorld(const std::string& message);
+			/**
+			 *
+			 * @param message
+			 */
+			void updateAlienRobot(const std::string& message);
+
+			/**
+			 *
+			 */
+			void sync(Model::RobotPtr robot);
+
 		protected:
 			/**
 			 *
@@ -277,12 +297,7 @@ namespace Model
 			/**
 			 * Send location of the robot
 			 */
-			void sendLocation();
-			/**
-			 * parse incoming world message
-			 * @param message
-			 */
-			void parseWorld(const std::string& message);
+		private:
 			/**
 			 *
 			 * @param message
@@ -305,7 +320,7 @@ namespace Model
 			 * @return
 			 */
 			std::vector<std::string> tokeniseString (const std::string& message, char seperator);
-		private:
+
 			std::string name;
 
 			Size size;

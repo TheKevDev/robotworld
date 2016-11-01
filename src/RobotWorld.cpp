@@ -417,13 +417,19 @@ std::string RobotWorld::asDebugString() const
 
 std::string RobotWorld::getWallData() const {
 	std::ostringstream os;
-
+/*
 	for(WallPtr w : walls) {
 		os	<<w->getPoint1().x << ","
 			<<w->getPoint1().y << ","
 			<<w->getPoint2().x << ","
 			<<w->getPoint2().y;
 	}
+*/
+
+	os	<<walls.at(0)->getPoint1().x << ","
+		<<walls.at(0)->getPoint1().y << ","
+		<<walls.at(0)->getPoint2().x << ","
+		<<walls.at(0)->getPoint2().y;
 	return os.str();
 }
 /**

@@ -14,8 +14,8 @@
 #include "Client.hpp"
 #include "Message.hpp"
 #include "MainApplication.hpp"
+#include "MainFrameWindow.hpp"
 #include "LaserDistanceSensor.hpp"
-//#include "Point.hpp"
 
 namespace Model
 {
@@ -378,12 +378,19 @@ namespace Model
 
 				aMessage.setMessageType(RequestWorld);
 				aMessage.setBody(getRobotData() + "&" + getGoalData() + "&" + RobotWorld::getRobotWorld().getWallData());
+/*
+				Model::RobotPtr robot = Model::RobotWorld::getRobotWorld().getRobot( "Robot");
+				if (robot)
+				{
+					robot->sync(robot);
+				}
+*/
 				break;
 			}
 
 			case SendRobotLocation:
 			{
-				Application::Logger::log( __PRETTY_FUNCTION__ + std::string(": Data van de robot is binnengekomen."));
+				updateAlienRobot(aMessage.getBody());
 
 				Application::Logger::log( __PRETTY_FUNCTION__ + std::string(": De robot bevindt zich hier: .") + aMessage.asString());
 
@@ -420,7 +427,6 @@ namespace Model
 				Application::Logger::log( __PRETTY_FUNCTION__ + std::string(": De response is op dit adres aangekomen. ") + aMessage.getBody());
 				break;
 			}
-
 			case SendRobotLocation:
 			{
 				Application::Logger::log( __PRETTY_FUNCTION__ + std::string(": De robotdata is goed overgestuurd: ") + aMessage.getBody());
@@ -594,7 +600,14 @@ namespace Model
 	void Robot::sendLocation() {
 		Model::RobotPtr robot = Model::RobotWorld::getRobotWorld().getRobot( "Robot");
 		std::string remoteIpAdres = "localhost";
-		std::string remotePort = "12345";
+		std::string remotePort = "12346";
+
+		if (Application::MainApplication::isArgGiven( "-robot_type"))
+		{
+			if(Application::MainApplication::getArg( "-robot_type").value == "client") {
+				remotePort = "12345";
+			}
+		}
 
 			// We will request an echo message. The response will be "Hello World", if all goes OK,
 			// "Goodbye cruel world!" if something went wrong.
@@ -641,11 +654,20 @@ namespace Model
 
 
 	void Robot::createAlienGoal(const std::string& message) {
-		std::vector<std::string> data;
+		std::vector<std::string> data = tokeniseString(message,',');
 
-		data = tokeniseString(message,',');
+		RobotWorld::getRobotWorld().newGoal("Goa2", Point(stoi(data.at(0)), stoi(data.at(1))), false);
+	}
 
-		RobotWorld::getRobotWorld().newGoal("Goal", Point(stoi(data.at(0)), stoi(data.at(1))), false);
+	void Robot::updateAlienRobot(const std::string& message) {
+		std::vector<std::string> data = tokeniseString(message,',');
+
+		RobotPtr alien = RobotWorld::getRobotWorld().getRobot("Robo2");
+
+		if(alien) {
+			alien->setPosition(Point(stoi(data.at(0)), stoi(data.at(1))),true);
+			alien->setFront(BoundedVector(stof(data.at(2)), stof(data.at(3))),true);
+		}
 	}
 
 
@@ -660,5 +682,23 @@ namespace Model
 	    }
 
 	    return data;
+	}
+
+	void Robot::sync(Model::RobotPtr robot) {
+		std::string remoteIpAdres = "localhost";
+		std::string remotePort = "12346";
+
+		if (Application::MainApplication::isArgGiven( "-robot_type"))
+		{
+			if(Application::MainApplication::getArg( "-robot_type").value == "client") {
+				remotePort = "12345";
+			}
+		}
+
+		Messaging::Client c1ient( remoteIpAdres,
+								  remotePort,
+								  robot);
+		Messaging::Message message( Model::Robot::MessageType::RequestWorld, "Mag ik jouw data?");
+		c1ient.dispatchMessage( message);
 	}
 } // namespace Model
