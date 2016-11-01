@@ -373,7 +373,7 @@ namespace Application
 	 */
 	void MainFrameWindow::OnPopulate( CommandEvent& UNUSEDPARAM(anEvent))
 	{
-		robotWorldCanvas->populate( 2);
+		robotWorldCanvas->populate( 1);
 	}
 	/**
 	 *
@@ -440,7 +440,14 @@ namespace Application
 				if (robot)
 				{
 					std::string remoteIpAdres = "localhost";
-					std::string remotePort = "12345";
+					std::string remotePort = "12346";
+
+					if (MainApplication::isArgGiven( "-robot_type"))
+					{
+						if(MainApplication::getArg( "-robot_type").value == "client") {
+							remotePort = "12345";
+						}
+					}
 
 					if (MainApplication::isArgGiven( "-remote_ip"))
 					{
@@ -456,8 +463,9 @@ namespace Application
 					Messaging::Client c1ient( remoteIpAdres,
 											  remotePort,
 											  robot);
-					Messaging::Message message( Model::Robot::MessageType::RequestWorld, "Werkt dit nu ook?");
+					Messaging::Message message( Model::Robot::MessageType::RequestWorld, "Mag ik jouw data?");
 					c1ient.dispatchMessage( message);
 				}
 		}
+
 } // namespace Application

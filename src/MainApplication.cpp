@@ -41,7 +41,15 @@ namespace Application
 
 			frame = new MainFrameWindow( "RobotWorld : " + MainApplication::getArg("-worldname").value);
 
-		}else
+		}
+
+		if(MainApplication::isArgGiven("-robot_type"))
+		{
+			Base::ObjectId::objectIdNamespace = MainApplication::getArg("-robot_type").value + "-";
+
+			frame = new MainFrameWindow( "RobotWorld : " + MainApplication::getArg("-robot_type").value);
+		}
+		else
 		{
 			frame = new MainFrameWindow( "RobotWorld");
 		}

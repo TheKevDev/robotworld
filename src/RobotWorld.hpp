@@ -150,6 +150,12 @@ namespace Model
 			virtual std::string asDebugString() const;
 			//@}
 
+			/**
+			 *
+			 * @return
+			 */
+			std::string getWallData() const;
+
 		protected:
 			/**
 			 *

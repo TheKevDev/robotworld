@@ -245,11 +245,15 @@ namespace Model
 			//@{
 
 			std::string getRobotData() const;
+			std::string getGoalData() const;
 			enum MessageType
 			{
 				EchoRequest,
 				EchoResponse,
-				RequestWorld
+				RequestWorld,
+				SendRobotLocation,
+				SendGoalLocation,
+				SendWallLocation
 			};
 
 		protected:
@@ -269,6 +273,38 @@ namespace Model
 			 *
 			 */
 			bool collision();
+
+			/**
+			 * Send location of the robot
+			 */
+			void sendLocation();
+			/**
+			 * parse incoming world message
+			 * @param message
+			 */
+			void parseWorld(const std::string& message);
+			/**
+			 *
+			 * @param message
+			 */
+			void createAlienRobot(const std::string& message);
+			/**
+			 *
+			 * @param message
+			 */
+			void createAlienWalls(const std::string& message);
+			/**
+			 *
+			 * @param message
+			 */
+			void createAlienGoal(const std::string& message);
+			/**
+			 *
+			 * @param message
+			 * @param seperator
+			 * @return
+			 */
+			std::vector<std::string> tokeniseString (const std::string& message, char seperator);
 		private:
 			std::string name;
 

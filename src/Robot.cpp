@@ -15,6 +15,7 @@
 #include "Message.hpp"
 #include "MainApplication.hpp"
 #include "LaserDistanceSensor.hpp"
+//#include "Point.hpp"
 
 namespace Model
 {
@@ -220,6 +221,15 @@ namespace Model
 				localPort = Application::MainApplication::getArg( "-local_port").value;
 			}
 
+			if (Application::MainApplication::isArgGiven( "-robot_type"))
+			{
+				if(Application::MainApplication::getArg( "-robot_type").value == "client") {
+					localPort = "12346";
+				}
+			}
+
+			Application::Logger::log("Mijn port is: " + localPort);
+
 			Messaging::CommunicationService::getCommunicationService().runRequestHandler( toPtr<Robot>(),
 																						  std::stoi(localPort));
 		}
@@ -367,7 +377,18 @@ namespace Model
 				Application::Logger::log( __PRETTY_FUNCTION__ + std::string(": Ik ga dit request nu verwerken."));
 
 				aMessage.setMessageType(RequestWorld);
-				aMessage.setBody(getRobotData());
+				aMessage.setBody(getRobotData() + "&" + getGoalData() + "&" + RobotWorld::getRobotWorld().getWallData());
+				break;
+			}
+
+			case SendRobotLocation:
+			{
+				Application::Logger::log( __PRETTY_FUNCTION__ + std::string(": Data van de robot is binnengekomen."));
+
+				Application::Logger::log( __PRETTY_FUNCTION__ + std::string(": De robot bevindt zich hier: .") + aMessage.asString());
+
+				aMessage.setMessageType(SendRobotLocation);
+				aMessage.setBody("OK");
 				break;
 			}
 			default:
@@ -395,7 +416,14 @@ namespace Model
 
 			case RequestWorld:
 			{
-				Application::Logger::log( __PRETTY_FUNCTION__ + std::string(": De response is op dit adres aangekomen.") + aMessage.asString());
+				parseWorld(aMessage.getBody());
+				Application::Logger::log( __PRETTY_FUNCTION__ + std::string(": De response is op dit adres aangekomen. ") + aMessage.getBody());
+				break;
+			}
+
+			case SendRobotLocation:
+			{
+				Application::Logger::log( __PRETTY_FUNCTION__ + std::string(": De robotdata is goed overgestuurd: ") + aMessage.getBody());
 				break;
 			}
 
@@ -466,11 +494,14 @@ namespace Model
 
 				std::this_thread::sleep_for( std::chrono::milliseconds( 100));
 
+				sendLocation();
+
 				// this should be the last thing in the loop
 				if(driving == false)
 				{
 					return;
 				}
+
 			} // while
 
 			for (std::shared_ptr< AbstractSensor > sensor : sensors)
@@ -550,4 +581,84 @@ namespace Model
 		return os.str();
 	}
 
+	std::string Robot::getGoalData() const {
+		std::ostringstream os;
+		GoalPtr goal = RobotWorld::getRobotWorld().getGoal( "Goal");
+		if(goal != nullptr) {
+		os 	<< std::to_string(goal->getPosition().x)<<  ","
+			<< std::to_string(goal->getPosition().y);
+		}
+		return os.str();
+	}
+
+	void Robot::sendLocation() {
+		Model::RobotPtr robot = Model::RobotWorld::getRobotWorld().getRobot( "Robot");
+		std::string remoteIpAdres = "localhost";
+		std::string remotePort = "12345";
+
+			// We will request an echo message. The response will be "Hello World", if all goes OK,
+			// "Goodbye cruel world!" if something went wrong.
+			Messaging::Client c1ient( remoteIpAdres,
+									  remotePort,
+									  robot);
+
+			//aMessage.setMessageType(RequestWorld);
+			//aMessage.setBody(getRobotData());
+			Messaging::Message message( Model::Robot::MessageType::SendRobotLocation, getRobotData());
+			c1ient.dispatchMessage( message);
+	}
+
+	void Robot::parseWorld(const std::string& message) {
+		std::vector<std::string> data;
+
+		data = tokeniseString(message,'&');
+
+    	createAlienRobot(data.at(0));
+    	createAlienGoal(data.at(1));
+    	createAlienWalls(data.at(2));
+
+		notifyObservers();
+	}
+
+	void Robot::createAlienRobot(const std::string& message) {
+		std::vector<std::string> data;
+
+		data = tokeniseString(message,',');
+
+		Application::Logger::log("Make alien robot");
+		RobotWorld::getRobotWorld().newRobot("Robo2", Point(stoi(data.at(0)), stoi(data.at(1))), false);
+	}
+
+			//goalPoint = Point(50, 450);
+
+	void Robot::createAlienWalls(const std::string& message) {
+		std::vector<std::string> data;
+
+		data = tokeniseString(message,',');
+
+		RobotWorld::getRobotWorld().newWall(Point(stoi(data.at(0)), stoi(data.at(1))),Point(stoi(data.at(2)), stoi(data.at(3))), false);
+	}
+
+
+	void Robot::createAlienGoal(const std::string& message) {
+		std::vector<std::string> data;
+
+		data = tokeniseString(message,',');
+
+		RobotWorld::getRobotWorld().newGoal("Goal", Point(stoi(data.at(0)), stoi(data.at(1))), false);
+	}
+
+
+	std::vector<std::string> Robot::tokeniseString (const std::string& message, char seperator) {
+		std::vector<std::string> data;
+	    std::stringstream ss;
+	    ss.str(message);
+	    std::string item;
+	    while (std::getline(ss, item, seperator)) {
+	        data.push_back(item);
+	        Application::Logger::log("Parsed item: " +item);
+	    }
+
+	    return data;
+	}
 } // namespace Model
