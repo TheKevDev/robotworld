@@ -632,6 +632,7 @@ namespace Model
     	createAlienGoal(data.at(1));
     	createAlienWalls(data.at(2));
 
+    	//Once everyone is added it's time to update the view
 		notifyObservers();
 	}
 
@@ -653,7 +654,15 @@ namespace Model
 
 		data = tokeniseString(message,',');
 
-		RobotWorld::getRobotWorld().newWall(Point(stoi(data.at(0)), stoi(data.at(1))),Point(stoi(data.at(2)), stoi(data.at(3))), false);
+		//Check if the the wall doesn't exist already
+		std::vector<WallPtr> currentWalls = RobotWorld::getRobotWorld().getWalls();
+		for(WallPtr& w:currentWalls) {
+			if(w->getPoint1() != Point(stoi(data.at(0)), stoi(data.at(1))) && w->getPoint2() != Point(stoi(data.at(2)), stoi(data.at(3))))
+			{
+				//If the wall doesn't exist we will add the wall to the field.
+				RobotWorld::getRobotWorld().newWall(Point(stoi(data.at(0)), stoi(data.at(1))),Point(stoi(data.at(2)), stoi(data.at(3))), false);
+			}
+		}
 	}
 
 
