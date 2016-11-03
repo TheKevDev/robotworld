@@ -641,9 +641,12 @@ namespace Model
 
 		data = tokeniseString(message,',');
 
-		Application::Logger::log("Make alien robot");
 		if(RobotWorld::getRobotWorld().getRobot("Robo2") == nullptr) {
 			RobotWorld::getRobotWorld().newRobot("Robo2", Point(stoi(data.at(0)), stoi(data.at(1))), false);
+			Application::Logger::log("Make alien robot");
+		}
+		else {
+			Application::Logger::log("Robot already exists");
 		}
 	}
 
@@ -662,6 +665,9 @@ namespace Model
 				//If the wall doesn't exist we will add the wall to the field.
 				RobotWorld::getRobotWorld().newWall(Point(stoi(data.at(0)), stoi(data.at(1))),Point(stoi(data.at(2)), stoi(data.at(3))), false);
 			}
+			else {
+				Application::Logger::log("Wall already exists");
+			}
 		}
 	}
 
@@ -671,6 +677,9 @@ namespace Model
 
 		if(RobotWorld::getRobotWorld().getGoal("Goa2") == nullptr) {
 			RobotWorld::getRobotWorld().newGoal("Goa2", Point(stoi(data.at(0)), stoi(data.at(1))), false);
+		}
+		else {
+			Application::Logger::log("Goal already exists");
 		}
 	}
 
@@ -685,7 +694,6 @@ namespace Model
 		}
 	}
 
-
 	std::vector<std::string> Robot::tokeniseString (const std::string& message, char seperator) {
 		std::vector<std::string> data;
 	    std::stringstream ss;
@@ -695,7 +703,6 @@ namespace Model
 	        data.push_back(item);
 	        Application::Logger::log("Parsed item: " +item);
 	    }
-
 	    return data;
 	}
 
