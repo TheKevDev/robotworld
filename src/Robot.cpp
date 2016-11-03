@@ -376,6 +376,8 @@ namespace Model
 			{
 				Application::Logger::log( __PRETTY_FUNCTION__ + std::string(": Ik ga dit request nu verwerken."));
 
+				parseWorld(aMessage.getBody());
+
 				aMessage.setMessageType(RequestWorld);
 				aMessage.setBody(getRobotData() + "&" + getGoalData() + "&" + RobotWorld::getRobotWorld().getWallData());
 /*
@@ -639,7 +641,9 @@ namespace Model
 		data = tokeniseString(message,',');
 
 		Application::Logger::log("Make alien robot");
-		RobotWorld::getRobotWorld().newRobot("Robo2", Point(stoi(data.at(0)), stoi(data.at(1))), false);
+		if(RobotWorld::getRobotWorld().getRobot("Robo2") == nullptr) {
+			RobotWorld::getRobotWorld().newRobot("Robo2", Point(stoi(data.at(0)), stoi(data.at(1))), false);
+		}
 	}
 
 			//goalPoint = Point(50, 450);
@@ -656,7 +660,9 @@ namespace Model
 	void Robot::createAlienGoal(const std::string& message) {
 		std::vector<std::string> data = tokeniseString(message,',');
 
-		RobotWorld::getRobotWorld().newGoal("Goa2", Point(stoi(data.at(0)), stoi(data.at(1))), false);
+		if(RobotWorld::getRobotWorld().getGoal("Goa2") == nullptr) {
+			RobotWorld::getRobotWorld().newGoal("Goa2", Point(stoi(data.at(0)), stoi(data.at(1))), false);
+		}
 	}
 
 	void Robot::updateAlienRobot(const std::string& message) {
@@ -698,7 +704,12 @@ namespace Model
 		Messaging::Client c1ient( remoteIpAdres,
 								  remotePort,
 								  robot);
-		Messaging::Message message( Model::Robot::MessageType::RequestWorld, "Mag ik jouw data?");
+
+
+		Messaging::Message message;
+
+		message.setBody(getRobotData() + "&" + getGoalData() + "&" + RobotWorld::getRobotWorld().getWallData());
+		message.setMessageType(RequestWorld);
 		c1ient.dispatchMessage( message);
 	}
 } // namespace Model

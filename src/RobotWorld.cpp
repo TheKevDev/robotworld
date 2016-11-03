@@ -292,8 +292,8 @@ void RobotWorld::populate(int aNumberOfWalls /*= 2*/)
 	{
 		RobotWorld::getRobotWorld().newRobot("Robot", Point(50, 50), false);
 
-		coordinates[0] = Point(100, 400);
-		coordinates[1] = Point(350, 300);
+		coordinates[0] = Point(100, 100);
+		coordinates[1] = Point(400, 400);
 
 
 		goalPoint = Point(450, 450);
@@ -302,8 +302,8 @@ void RobotWorld::populate(int aNumberOfWalls /*= 2*/)
 	{
 		RobotWorld::getRobotWorld().newRobot("Robot", Point(450, 50), false);
 
-		coordinates[0] = Point(150, 250);
-		coordinates[1] = Point(450, 400);
+		coordinates[0] = Point(100, 400);
+		coordinates[1] = Point(400, 100);
 
 		goalPoint = Point(50, 450);
 	}
