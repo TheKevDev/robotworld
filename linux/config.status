@@ -437,7 +437,7 @@ Copyright (C) 2012 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/kevin/robotworld/linux'
+ac_pwd='/home/kevin/Documenten/RobotWorld/linux'
 srcdir='..'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/bin/mkdir -p'
@@ -675,7 +675,7 @@ finish_cmds='PATH="\$PATH:/sbin" ldconfig -n $libdir'
 finish_eval=''
 hardcode_into_libs='yes'
 sys_lib_search_path_spec='/usr/lib/gcc/x86_64-linux-gnu/6 /usr/lib/x86_64-linux-gnu /usr/lib /lib/x86_64-linux-gnu /lib '
-sys_lib_dlsearch_path_spec='/lib /usr/lib /usr/lib/x86_64-linux-gnu/libfakeroot /lib/i386-linux-gnu /usr/lib/i386-linux-gnu /lib/i686-linux-gnu /usr/lib/i686-linux-gnu /usr/local/lib /lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/mesa /usr/lib/x86_64-linux-gnu/mesa-egl /usr/lib/i386-linux-gnu/mesa /usr/lib/i386-linux-gnu/mesa-egl /usr/lib/x86_64-linux-gnu/mesa /usr/lib/x86_64-linux-gnu/mesa-egl /usr/lib/i386-linux-gnu/mesa /usr/lib/i386-linux-gnu/mesa-egl /lib32 /usr/lib32 '
+sys_lib_dlsearch_path_spec='/lib /usr/lib /usr/lib/x86_64-linux-gnu/libfakeroot /lib/i386-linux-gnu /usr/lib/i386-linux-gnu /lib/i686-linux-gnu /usr/lib/i686-linux-gnu /usr/lib/i386-linux-gnu/mesa /usr/local/lib /lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/mesa-egl /usr/lib/x86_64-linux-gnu/mesa '
 hardcode_action='immediate'
 enable_dlopen='unknown'
 enable_dlopen_self='unknown'
@@ -876,8 +876,8 @@ S["LTLIBOBJS"]=""
 S["LIBOBJS"]=""
 S["AM_LIBTOOLFLAGS"]="--silent"
 S["AM_LDFLAGS"]="-no-undefined"
-S["AM_CXXFLAGS"]=" -O0 -p -pg -g3 -Wall -Wextra -Wconversion"
-S["AM_CFLAGS"]=" -O0 -p -pg -g3 -Wall -Wextra -Wconversion"
+S["AM_CXXFLAGS"]=" -O0 -p -pg -g3 -Wall -Wextra"
+S["AM_CFLAGS"]=" -O0 -p -pg -g3 -Wall -Wextra"
 S["AM_CPPFLAGS"]=" -DDEVELOPMENT"
 S["ROBOTWORLD_LDFLAGS"]=""
 S["ROBOTWORLD_CXXFLAGS"]="-pipe -std=gnu++11"
@@ -1001,12 +1001,12 @@ S["mkdir_p"]="$(MKDIR_P)"
 S["MKDIR_P"]="/bin/mkdir -p"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]="strip"
-S["install_sh"]="${SHELL} /home/kevin/robotworld/install-sh"
-S["MAKEINFO"]="${SHELL} /home/kevin/robotworld/missing makeinfo"
-S["AUTOHEADER"]="${SHELL} /home/kevin/robotworld/missing autoheader"
-S["AUTOMAKE"]="${SHELL} /home/kevin/robotworld/missing automake-1.15"
-S["AUTOCONF"]="${SHELL} /home/kevin/robotworld/missing autoconf"
-S["ACLOCAL"]="${SHELL} /home/kevin/robotworld/missing aclocal-1.15"
+S["install_sh"]="${SHELL} /home/kevin/Documenten/RobotWorld/install-sh"
+S["MAKEINFO"]="${SHELL} /home/kevin/Documenten/RobotWorld/missing makeinfo"
+S["AUTOHEADER"]="${SHELL} /home/kevin/Documenten/RobotWorld/missing autoheader"
+S["AUTOMAKE"]="${SHELL} /home/kevin/Documenten/RobotWorld/missing automake-1.15"
+S["AUTOCONF"]="${SHELL} /home/kevin/Documenten/RobotWorld/missing autoconf"
+S["ACLOCAL"]="${SHELL} /home/kevin/Documenten/RobotWorld/missing aclocal-1.15"
 S["VERSION"]="0.0.1"
 S["PACKAGE"]="robotworld-0.0.1"
 S["CYGPATH_W"]="echo"
@@ -1033,6 +1033,7 @@ S["infodir"]="${datarootdir}/info"
 S["docdir"]="${datarootdir}/doc/${PACKAGE_TARNAME}"
 S["oldincludedir"]="/usr/include"
 S["includedir"]="${prefix}/include"
+S["runstatedir"]="${localstatedir}/run"
 S["localstatedir"]="${prefix}/var"
 S["sharedstatedir"]="${prefix}/com"
 S["sysconfdir"]="${prefix}/etc"
@@ -1788,7 +1789,7 @@ shlibpath_overrides_runpath=$shlibpath_overrides_runpath
 libname_spec=$lt_libname_spec
 
 # List of archive names.  First name is the real one, the rest are links.
-# The last name is the one that the linker finds with -lNAME.
+# The last name is the one that the linker finds with -lNAME
 library_names_spec=$lt_library_names_spec
 
 # The coded name of the library, if different from the real name.
@@ -1904,7 +1905,7 @@ allow_undefined_flag=$lt_allow_undefined_flag
 no_undefined_flag=$lt_no_undefined_flag
 
 # Flag to hardcode \$libdir into a binary during linking.
-# This must work even if \$libdir does not exist.
+# This must work even if \$libdir does not exist
 hardcode_libdir_flag_spec=$lt_hardcode_libdir_flag_spec
 
 # Whether we need a single "-rpath" flag with a separated argument.
@@ -2011,9 +2012,9 @@ ltmain="$ac_aux_dir/ltmain.sh"
   sed -e '/^func_dirname ()$/,/^} # func_dirname /c\
 func_dirname ()\
 {\
-\    case ${1} in\
-\      */*) func_dirname_result="${1%/*}${2}" ;;\
-\      *  ) func_dirname_result="${3}" ;;\
+\    case ${1} in\
+\      */*) func_dirname_result="${1%/*}${2}" ;;\
+\      *  ) func_dirname_result="${3}" ;;\
 \    esac\
 } # Extended-shell func_dirname implementation' "$cfgfile" > $cfgfile.tmp \
   && mv -f "$cfgfile.tmp" "$cfgfile" \
@@ -2034,10 +2035,10 @@ test 0 -eq $? || _lt_function_replace_fail=:
   sed -e '/^func_dirname_and_basename ()$/,/^} # func_dirname_and_basename /c\
 func_dirname_and_basename ()\
 {\
-\    case ${1} in\
-\      */*) func_dirname_result="${1%/*}${2}" ;;\
-\      *  ) func_dirname_result="${3}" ;;\
-\    esac\
+\    case ${1} in\
+\      */*) func_dirname_result="${1%/*}${2}" ;;\
+\      *  ) func_dirname_result="${3}" ;;\
+\    esac\
 \    func_basename_result="${1##*/}"\
 } # Extended-shell func_dirname_and_basename implementation' "$cfgfile" > $cfgfile.tmp \
   && mv -f "$cfgfile.tmp" "$cfgfile" \
@@ -2048,10 +2049,10 @@ test 0 -eq $? || _lt_function_replace_fail=:
   sed -e '/^func_stripname ()$/,/^} # func_stripname /c\
 func_stripname ()\
 {\
-\    # pdksh 5.2.14 does not do ${X%$Y} correctly if both X and Y are\
-\    # positional parameters, so assign one to ordinary parameter first.\
-\    func_stripname_result=${3}\
-\    func_stripname_result=${func_stripname_result#"${1}"}\
+\    # pdksh 5.2.14 does not do ${X%$Y} correctly if both X and Y are\
+\    # positional parameters, so assign one to ordinary parameter first.\
+\    func_stripname_result=${3}\
+\    func_stripname_result=${func_stripname_result#"${1}"}\
 \    func_stripname_result=${func_stripname_result%"${2}"}\
 } # Extended-shell func_stripname implementation' "$cfgfile" > $cfgfile.tmp \
   && mv -f "$cfgfile.tmp" "$cfgfile" \
@@ -2062,7 +2063,7 @@ test 0 -eq $? || _lt_function_replace_fail=:
   sed -e '/^func_split_long_opt ()$/,/^} # func_split_long_opt /c\
 func_split_long_opt ()\
 {\
-\    func_split_long_opt_name=${1%%=*}\
+\    func_split_long_opt_name=${1%%=*}\
 \    func_split_long_opt_arg=${1#*=}\
 } # Extended-shell func_split_long_opt implementation' "$cfgfile" > $cfgfile.tmp \
   && mv -f "$cfgfile.tmp" "$cfgfile" \
@@ -2073,7 +2074,7 @@ test 0 -eq $? || _lt_function_replace_fail=:
   sed -e '/^func_split_short_opt ()$/,/^} # func_split_short_opt /c\
 func_split_short_opt ()\
 {\
-\    func_split_short_opt_arg=${1#??}\
+\    func_split_short_opt_arg=${1#??}\
 \    func_split_short_opt_name=${1%"$func_split_short_opt_arg"}\
 } # Extended-shell func_split_short_opt implementation' "$cfgfile" > $cfgfile.tmp \
   && mv -f "$cfgfile.tmp" "$cfgfile" \
@@ -2084,9 +2085,9 @@ test 0 -eq $? || _lt_function_replace_fail=:
   sed -e '/^func_lo2o ()$/,/^} # func_lo2o /c\
 func_lo2o ()\
 {\
-\    case ${1} in\
-\      *.lo) func_lo2o_result=${1%.lo}.${objext} ;;\
-\      *)    func_lo2o_result=${1} ;;\
+\    case ${1} in\
+\      *.lo) func_lo2o_result=${1%.lo}.${objext} ;;\
+\      *)    func_lo2o_result=${1} ;;\
 \    esac\
 } # Extended-shell func_lo2o implementation' "$cfgfile" > $cfgfile.tmp \
   && mv -f "$cfgfile.tmp" "$cfgfile" \
@@ -2139,7 +2140,7 @@ test 0 -eq $? || _lt_function_replace_fail=:
   sed -e '/^func_append_quoted ()$/,/^} # func_append_quoted /c\
 func_append_quoted ()\
 {\
-\    func_quote_for_eval "${2}"\
+\    func_quote_for_eval "${2}"\
 \    eval "${1}+=\\\\ \\$func_quote_for_eval_result"\
 } # Extended-shell func_append_quoted implementation' "$cfgfile" > $cfgfile.tmp \
   && mv -f "$cfgfile.tmp" "$cfgfile" \
@@ -2246,7 +2247,7 @@ allow_undefined_flag=$lt_allow_undefined_flag_CXX
 no_undefined_flag=$lt_no_undefined_flag_CXX
 
 # Flag to hardcode \$libdir into a binary during linking.
-# This must work even if \$libdir does not exist.
+# This must work even if \$libdir does not exist
 hardcode_libdir_flag_spec=$lt_hardcode_libdir_flag_spec_CXX
 
 # Whether we need a single "-rpath" flag with a separated argument.

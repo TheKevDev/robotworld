@@ -293,10 +293,6 @@ namespace Model
 			 *
 			 */
 			bool collision();
-			/**
-			 *
-			 */
-			bool robotCollision();
 
 			/**
 			 * Send location of the robot
