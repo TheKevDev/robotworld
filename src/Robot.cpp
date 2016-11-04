@@ -577,24 +577,34 @@ namespace Model
 			unsigned pathPoint = 0;
 			while (position.x > 0 && position.x < 500 && position.y > 0 && position.y < 500 && pathPoint < path.size())
 			{
+
 				if(recalc) {
+					Application::Logger::log("if recalc");
 					speed = 0.0;
 					if(collTrigger) {
 						recalcRoute();
-						speed = 10.0;
+						//std::this_thread::sleep_for( std::chrono::milliseconds(3000));
 						collTrigger = false;
+						recalc = false;
+						speed = 10.0;
+						pathPoint = 0;
+						Application::Logger::log("Triggered robot being handled");
 					}
 					else {
 						std::this_thread::sleep_for( std::chrono::milliseconds(3000));
 						speed = 10.0;
 						recalc = false;
+						Application::Logger::log("non-Triggered robot being handled");
 					}
+					notifyObservers();
 				}
 
-				const PathAlgorithm::Vertex& vertex = path[pathPoint+=speed];
-				front = BoundedVector( vertex.asPoint(), position);
-				position.x = vertex.x;
-				position.y = vertex.y;
+				if(!recalc) {
+					const PathAlgorithm::Vertex& vertex = path[pathPoint+=speed];
+					front = BoundedVector( vertex.asPoint(), position);
+					position.x = vertex.x;
+					position.y = vertex.y;
+				}
 
 				if (arrived(goal) || collision())
 				{
@@ -603,28 +613,25 @@ namespace Model
 					break;
 				}
 
+
+				notifyObservers();
+
+				sendLocation();
+
 				if(robotCollision()) {
-					//driving = false;
 					recalc = true;
 					collTrigger = true;
 					sendStopMessage();
 
 					Application::Logger::log("Stop de robot");
 
-									/*
-									createWallsAroundRobot();
+								/*
+								createWallsAroundRobot();
 
-									goal = RobotWorld::getRobotWorld().getGoal( "Goal");
-														calculateRoute(goal);
-									*/
+								goal = RobotWorld::getRobotWorld().getGoal( "Goal");
+													calculateRoute(goal);
+								*/
 				}
-
-
-				notifyObservers();
-
-				sendLocation();
-
-
 
 				std::this_thread::sleep_for( std::chrono::milliseconds(100));
 
@@ -707,7 +714,7 @@ namespace Model
 
 	bool Robot::robotCollision()
 	{
-		unsigned short safetyMeasure = 50;
+		unsigned short safetyMeasure = 80;
 		RobotPtr robot = RobotWorld::getRobotWorld().getRobot("Robot");
 		RobotPtr robo2 = RobotWorld::getRobotWorld().getRobot("Robo2");
 		Point robotPoly[] = {robot->getSafetyFrontLeft(safetyMeasure),
@@ -759,6 +766,10 @@ namespace Model
 				remotePort = "12345";
 			}
 		}
+		if (MainApplication::isArgGiven( "-remote_ip"))
+		{
+			remoteIpAdres = MainApplication::getArg( "-remote_ip").value;
+		}
 
 			// We will request an echo message. The response will be "Hello World", if all goes OK,
 			// "Goodbye cruel world!" if something went wrong.
@@ -782,6 +793,10 @@ namespace Model
 			if(Application::MainApplication::getArg( "-robot_type").value == "client") {
 				remotePort = "12345";
 			}
+		}
+		if (MainApplication::isArgGiven( "-remote_ip"))
+		{
+			remoteIpAdres = MainApplication::getArg( "-remote_ip").value;
 		}
 
 			// We will request an echo message. The response will be "Hello World", if all goes OK,
@@ -812,8 +827,6 @@ namespace Model
 		goal = RobotWorld::getRobotWorld().getGoal( "Goal");
 		calculateRoute(goal);
 
-
-
 		Application::Logger::log("Start driving has been called");
 
 		//remove walls
@@ -824,10 +837,7 @@ namespace Model
 
 		Application::Logger::log("End of recalc");
 
-		//std::this_thread::sleep_for( std::chrono::milliseconds(5000));
-
-		recalc = false;
-		//drive();
+		//std::this_thread::sleep_for( std::chrono::milliseconds(3000));
 	}
 
 	void Robot::parseWorld(const std::string& message) {
@@ -922,6 +932,10 @@ namespace Model
 		if (Application::MainApplication::isArgGiven( "-robot_type"))
 		{
 				remotePort = "12345";
+		}
+		if (MainApplication::isArgGiven( "-remote_ip"))
+		{
+			remoteIpAdres = MainApplication::getArg( "-remote_ip").value;
 		}
 
 		Messaging::Client c1ient( remoteIpAdres,
