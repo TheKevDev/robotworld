@@ -345,77 +345,77 @@ namespace Model
 		return backRight;
 	}
 
-//	/**
-//	 *
-//	 */
-//	Point Robot::getSafetyFrontLeft() const
-//	{
-//		// x and y are pointing to top left now
-//		int x = position.x - (size.x / 2);
-//		int y = position.y - (size.y / 2);
-//
-//		Point originalFrontLeft( x, y);
-//		double angle = Utils::Shape2DUtils::getAngle( front) + 0.5 * Utils::PI;
-//
-//		Point frontLeft( (originalFrontLeft.x - position.x) * std::cos( angle) - (originalFrontLeft.y - position.y) * std::sin( angle) + position.x, (originalFrontLeft.y - position.y) * std::cos( angle)
-//		+ (originalFrontLeft.x - position.x) * std::sin( angle) + position.y);
-//
-//		return frontLeft;
-//	}
-//	/**
-//	 *
-//	 */
-//	Point Robot::getSafetyFrontRight() const
-//	{
-//		// x and y are pointing to top left now
-//		int x = position.x - (size.x / 2);
-//		int y = position.y - (size.y / 2);
-//
-//		Point originalFrontRight( x + size.x, y);
-//		double angle = Utils::Shape2DUtils::getAngle( front) + 0.5 * Utils::PI;
-//
-//		Point frontRight( (originalFrontRight.x - position.x) * std::cos( angle) - (originalFrontRight.y - position.y) * std::sin( angle) + position.x, (originalFrontRight.y - position.y)
-//						  * std::cos( angle) + (originalFrontRight.x - position.x) * std::sin( angle) + position.y);
-//
-//		return frontRight;
-//	}
-//	/**
-//	 *
-//	 */
-//	Point Robot::getSafetyBackLeft() const
-//	{
-//		// x and y are pointing to top left now
-//		int x = position.x - (size.x / 2);
-//		int y = position.y - (size.y / 2);
-//
-//		Point originalBackLeft( x, y + size.y);
-//
-//		double angle = Utils::Shape2DUtils::getAngle( front) + 0.5 * Utils::PI;
-//
-//		Point backLeft( (originalBackLeft.x - position.x) * std::cos( angle) - (originalBackLeft.y - position.y) * std::sin( angle) + position.x, (originalBackLeft.y - position.y) * std::cos( angle)
-//		+ (originalBackLeft.x - position.x) * std::sin( angle) + position.y);
-//
-//		return backLeft;
-//
-//	}
-//	/**
-//	 *
-//	 */
-//	Point Robot::getSafetyBackRight() const
-//	{
-//		// x and y are pointing to top left now
-//		int x = position.x - (size.x / 2);
-//		int y = position.y - (size.y / 2);
-//
-//		Point originalBackRight( x + size.x, y + size.y);
-//
-//		double angle = Utils::Shape2DUtils::getAngle( front) + 0.5 * Utils::PI;
-//
-//		Point backRight( (originalBackRight.x - position.x) * std::cos( angle) - (originalBackRight.y - position.y) * std::sin( angle) + position.x, (originalBackRight.y - position.y) * std::cos( angle)
-//		+ (originalBackRight.x - position.x) * std::sin( angle) + position.y);
-//
-//		return backRight;
-//	}
+	/**
+	 *
+	 */
+	Point Robot::getSafetyFrontLeft(unsigned short safetyMeasure) const
+	{
+		// x and y are pointing to top left now
+		int x = position.x - (size.x / 2) - safetyMeasure;
+		int y = position.y - (size.y / 2) - safetyMeasure;
+
+		Point originalFrontLeft( x, y);
+		double angle = Utils::Shape2DUtils::getAngle( front) + 0.5 * Utils::PI;
+
+		Point frontLeft( (originalFrontLeft.x - position.x) * std::cos( angle) - (originalFrontLeft.y - position.y) * std::sin( angle) + position.x, (originalFrontLeft.y - position.y) * std::cos( angle)
+		+ (originalFrontLeft.x - position.x) * std::sin( angle) + position.y);
+
+		return frontLeft;
+	}
+	/**
+	 *
+	 */
+	Point Robot::getSafetyFrontRight(unsigned short safetyMeasure) const
+	{
+		// x and y are pointing to top left now
+		int x = position.x - (size.x / 2) - safetyMeasure;
+		int y = position.y - (size.y / 2) - safetyMeasure;
+
+		Point originalFrontRight( x + size.x, y);
+		double angle = Utils::Shape2DUtils::getAngle( front) + 0.5 * Utils::PI;
+
+		Point frontRight( (originalFrontRight.x - position.x) * std::cos( angle) - (originalFrontRight.y - position.y) * std::sin( angle) + position.x, (originalFrontRight.y - position.y)
+						  * std::cos( angle) + (originalFrontRight.x - position.x) * std::sin( angle) + position.y);
+
+		return frontRight;
+	}
+	/**
+	 *
+	 */
+	Point Robot::getSafetyBackLeft(unsigned short safetyMeasure) const
+	{
+		// x and y are pointing to top left now
+		int x = position.x - (size.x / 2) - safetyMeasure;
+		int y = position.y - (size.y / 2) - safetyMeasure;
+
+		Point originalBackLeft( x, y + size.y);
+
+		double angle = Utils::Shape2DUtils::getAngle( front) + 0.5 * Utils::PI;
+
+		Point backLeft( (originalBackLeft.x - position.x) * std::cos( angle) - (originalBackLeft.y - position.y) * std::sin( angle) + position.x, (originalBackLeft.y - position.y) * std::cos( angle)
+		+ (originalBackLeft.x - position.x) * std::sin( angle) + position.y);
+
+		return backLeft;
+
+	}
+	/**
+	 *
+	 */
+	Point Robot::getSafetyBackRight(unsigned short safetyMeasure) const
+	{
+		// x and y are pointing to top left now
+		int x = position.x - (size.x / 2) - safetyMeasure;
+		int y = position.y - (size.y / 2) - safetyMeasure;
+
+		Point originalBackRight( x + size.x, y + size.y);
+
+		double angle = Utils::Shape2DUtils::getAngle( front) + 0.5 * Utils::PI;
+
+		Point backRight( (originalBackRight.x - position.x) * std::cos( angle) - (originalBackRight.y - position.y) * std::sin( angle) + position.x, (originalBackRight.y - position.y) * std::cos( angle)
+		+ (originalBackRight.x - position.x) * std::sin( angle) + position.y);
+
+		return backRight;
+	}
 
 	/**
 	 *
@@ -677,11 +677,18 @@ namespace Model
 
 	bool Robot::robotCollision()
 	{
+		unsigned short safetyMeasure = 50;
 		RobotPtr robot = RobotWorld::getRobotWorld().getRobot("Robot");
 		RobotPtr robo2 = RobotWorld::getRobotWorld().getRobot("Robo2");
-		Point robotPoly[] = {robot->getFrontLeft(), robot->getFrontRight(), robot->getBackLeft(), robot->getBackRight()};
+		Point robotPoly[] = {robot->getSafetyFrontLeft(safetyMeasure),
+				robot->getSafetyFrontRight(safetyMeasure),
+				robot->getSafetyBackLeft(safetyMeasure),
+				robot->getSafetyBackRight(safetyMeasure)};
 		if(robo2 != nullptr) {
-			if(Utils::Shape2DUtils::isInsidePolygon(robotPoly, 4, robo2->getPosition()))
+			if(Utils::Shape2DUtils::isInsidePolygon(robotPoly, 4, robo2->getFrontLeft())
+			||Utils::Shape2DUtils::isInsidePolygon(robotPoly, 4, robo2->getFrontRight())
+			||Utils::Shape2DUtils::isInsidePolygon(robotPoly, 4, robo2->getBackLeft())
+			||Utils::Shape2DUtils::isInsidePolygon(robotPoly, 4, robo2->getBackRight()))
 			{
 				Application::Logger::log(std::string("PANIEK PANIEK PANIEK PANIEK PANIEK"));
 				return true;
