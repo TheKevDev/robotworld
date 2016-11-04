@@ -491,7 +491,7 @@ namespace Model
 				position.x = vertex.x;
 				position.y = vertex.y;
 
-				if (arrived(goal) || collision() || robotCollision())
+				if (arrived(goal) || collision())
 				{
 					Application::Logger::log(__PRETTY_FUNCTION__ + std::string(": arrived or collision"));
 					notifyObservers();
@@ -573,21 +573,6 @@ namespace Model
 							Utils::Shape2DUtils::intersect( frontLeft, backLeft, wall->getPoint1(), wall->getPoint2())	||
 							Utils::Shape2DUtils::intersect( frontRight, backRight, wall->getPoint1(), wall->getPoint2()))
 			{
-				return true;
-			}
-		}
-		return false;
-	}
-
-	bool Robot::robotCollision()
-	{
-		RobotPtr robot = RobotWorld::getRobotWorld().getRobot("Robot");
-		RobotPtr robo2 = RobotWorld::getRobotWorld().getRobot("Robo2");
-		Point robotPoly[] = {robot->getFrontLeft(), robot->getFrontRight(), robot->getBackLeft(), robot->getBackRight()};
-		if(robo2 != nullptr) {
-			if(Utils::Shape2DUtils::isInsidePolygon(robotPoly, 4, robo2->getPosition()))
-			{
-				Application::Logger::log(std::string("PANIEK PANIEK PANIEK PANIEK PANIEK"));
 				return true;
 			}
 		}
@@ -716,7 +701,7 @@ namespace Model
 	    std::string item;
 	    while (std::getline(ss, item, seperator)) {
 	        data.push_back(item);
-	        //Application::Logger::log("Parsed item: " +item);
+	        Application::Logger::log("Parsed item: " +item);
 	    }
 	    return data;
 	}
