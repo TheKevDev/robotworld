@@ -473,6 +473,15 @@ namespace Model
 				aMessage.setBody("OK");
 				break;
 			}
+
+			case SendStopMessage:
+			{
+				Application::Logger::log("De andere robot stop nu ook .");
+
+								//aMessage.setMessageType(SendRobotLocation);
+								//aMessage.setBody("OK");
+				break;
+			}
 			default:
 			{
 				Application::Logger::log( __PRETTY_FUNCTION__ + std::string(": default"));
@@ -564,7 +573,7 @@ namespace Model
 				position.x = vertex.x;
 				position.y = vertex.y;
 
-				if (arrived(goal) || collision() || robotCollision())
+				if (arrived(goal) || collision())
 				{
 					Application::Logger::log(__PRETTY_FUNCTION__ + std::string(": arrived or collision"));
 					notifyObservers();
@@ -576,6 +585,20 @@ namespace Model
 				std::this_thread::sleep_for( std::chrono::milliseconds( 100));
 
 				sendLocation();
+
+				if(robotCollision()) {
+					driving = false;
+					sendStopMessage();
+
+					Application::Logger::log("Stop de robot");
+
+					/*
+					createWallsAroundRobot();
+
+					goal = RobotWorld::getRobotWorld().getGoal( "Goal");
+										calculateRoute(goal);
+					*/
+				}
 
 				// this should be the last thing in the loop
 				if(driving == false)
@@ -711,6 +734,30 @@ namespace Model
 			c1ient.dispatchMessage( message);
 	}
 
+	void Robot::sendStopMessage() {
+		Model::RobotPtr robot = Model::RobotWorld::getRobotWorld().getRobot( "Robot");
+		std::string remoteIpAdres = "localhost";
+		std::string remotePort = "12346";
+
+		if (Application::MainApplication::isArgGiven( "-robot_type"))
+		{
+			if(Application::MainApplication::getArg( "-robot_type").value == "client") {
+				remotePort = "12345";
+			}
+		}
+
+			// We will request an echo message. The response will be "Hello World", if all goes OK,
+			// "Goodbye cruel world!" if something went wrong.
+			Messaging::Client c1ient( remoteIpAdres,
+									  remotePort,
+									  robot);
+
+			//aMessage.setMessageType(RequestWorld);
+			//aMessage.setBody(getRobotData());
+			Messaging::Message message( Model::Robot::MessageType::SendStopMessage);
+			c1ient.dispatchMessage( message);
+	}
+
 	void Robot::parseWorld(const std::string& message) {
 		std::vector<std::string> data;
 
@@ -800,9 +847,7 @@ namespace Model
 
 		if (Application::MainApplication::isArgGiven( "-robot_type"))
 		{
-			if(Application::MainApplication::getArg( "-robot_type").value == "client") {
 				remotePort = "12345";
-			}
 		}
 
 		Messaging::Client c1ient( remoteIpAdres,

@@ -253,13 +253,18 @@ namespace Model
 				RequestWorld,
 				SendRobotLocation,
 				SendGoalLocation,
-				SendWallLocation
+				SendWallLocation,
+				SendStopMessage
 			};
 
 			/**
 			 *
 			 */
 			void sendLocation();
+			/**
+			 *
+			 */
+			void sendStopMessage();
 			/**
 			 * parse incoming world message
 			 * @param message
