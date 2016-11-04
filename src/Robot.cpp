@@ -478,7 +478,7 @@ namespace Model
 			{
 				Application::Logger::log("De andere robot stop nu ook .");
 				driving = false;
-				aMessage.setMessageType(RecalculatePlease);
+				aMessage.setMessageType(SendStopMessage);
 
 								//aMessage.setMessageType(SendRobotLocation);
 								//aMessage.setBody("OK");
@@ -518,9 +518,9 @@ namespace Model
 				Application::Logger::log( __PRETTY_FUNCTION__ + std::string(": De robotdata is goed overgestuurd: ") + aMessage.getBody());
 				break;
 			}
-			case RecalculatePlease:
+			case SendStopMessage:
 			{
-
+				recalcRoute();
 				break;
 			}
 
