@@ -182,6 +182,22 @@ namespace Model
 			 */
 			Point getBackRight() const;
 			/**
+			 *
+			 */
+			Point getSafetyFrontLeft(unsigned short safetyMeasure) const;
+			/**
+			 *
+			 */
+			Point getSafetyFrontRight(unsigned short safetyMeasure) const;
+			/**
+			 *
+			 */
+			Point getSafetyBackLeft(unsigned short safetyMeasure) const;
+			/**
+			 *
+			 */
+			Point getSafetyBackRight(unsigned short safetyMeasure) const;
+			/**
 			 * @name Observer functions
 			 */
 			//@{
