@@ -531,6 +531,7 @@ namespace Model
 			}
 		}
 	}
+
 	/**
 	 *
 	 */
@@ -785,6 +786,34 @@ namespace Model
 			//aMessage.setBody(getRobotData());
 			Messaging::Message message( Model::Robot::MessageType::SendStopMessage);
 			c1ient.dispatchMessage( message);
+	}
+
+	void Robot::recalcRoute() {
+		std::vector<WallPtr> tempWalls;
+
+		Application::Logger::log("Recalc function");
+
+		RobotPtr robo2 = RobotWorld::getRobotWorld().getRobot("Robo2");
+
+		tempWalls.push_back(RobotWorld::getRobotWorld().newWall(robo2->getFrontLeft(),robo2->getFrontRight(), false));
+		tempWalls.push_back(RobotWorld::getRobotWorld().newWall(robo2->getFrontRight(),robo2->getBackRight(), false));
+		tempWalls.push_back(RobotWorld::getRobotWorld().newWall(robo2->getBackRight(),robo2->getBackLeft(), false));
+		tempWalls.push_back(RobotWorld::getRobotWorld().newWall(robo2->getBackLeft(),robo2->getFrontLeft(), false));
+
+		//Recalc route
+		startDriving();
+
+		Application::Logger::log("Start driving has been called");
+
+		//remove walls
+		while(!tempWalls.empty()){
+			RobotWorld::getRobotWorld().deleteWall(tempWalls.at(0));
+			tempWalls.erase(tempWalls.begin());
+		}
+
+		Application::Logger::log("End of recalc");
+
+		//drive
 	}
 
 	void Robot::parseWorld(const std::string& message) {

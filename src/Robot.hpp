@@ -282,6 +282,10 @@ namespace Model
 			 */
 			void sendStopMessage();
 			/**
+			 *
+			 */
+			void recalcRoute();
+			/**
 			 * parse incoming world message
 			 * @param message
 			 */
