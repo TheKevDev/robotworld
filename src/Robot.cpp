@@ -354,7 +354,7 @@ namespace Model
 		int x = position.x - (size.x / 2);
 		int y = position.y - (size.y / 2);
 
-		Point originalFrontLeft( x, y - safetyMeasure);
+		Point originalFrontLeft( x - 2, y - safetyMeasure);
 		double angle = Utils::Shape2DUtils::getAngle( front) + 0.5 * Utils::PI;
 
 		Point frontLeft( (originalFrontLeft.x - position.x) * std::cos( angle) - (originalFrontLeft.y - position.y) * std::sin( angle) + position.x, (originalFrontLeft.y - position.y) * std::cos( angle)
@@ -371,7 +371,7 @@ namespace Model
 		int x = position.x - (size.x / 2);
 		int y = position.y - (size.y / 2);
 
-		Point originalFrontRight( x + size.x, y - safetyMeasure);
+		Point originalFrontRight( x + size.x + 2, y - safetyMeasure);
 		double angle = Utils::Shape2DUtils::getAngle( front) + 0.5 * Utils::PI;
 
 		Point frontRight( (originalFrontRight.x - position.x) * std::cos( angle) - (originalFrontRight.y - position.y) * std::sin( angle) + position.x, (originalFrontRight.y - position.y)
