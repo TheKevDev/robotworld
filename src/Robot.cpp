@@ -477,7 +477,8 @@ namespace Model
 			case SendStopMessage:
 			{
 				Application::Logger::log("De andere robot stop nu ook .");
-				driving = false;
+				//driving = false;
+				recalc = true;
 				aMessage.setMessageType(SendStopMessage);
 
 								//aMessage.setMessageType(SendRobotLocation);
@@ -520,7 +521,6 @@ namespace Model
 			}
 			case SendStopMessage:
 			{
-				recalcRoute();
 				break;
 			}
 
@@ -561,6 +561,7 @@ namespace Model
 	 */
 	void Robot::drive()
 	{
+		bool collTrigger = false;
 		try
 		{
 			for (std::shared_ptr< AbstractSensor > sensor : sensors)
@@ -576,6 +577,20 @@ namespace Model
 			unsigned pathPoint = 0;
 			while (position.x > 0 && position.x < 500 && position.y > 0 && position.y < 500 && pathPoint < path.size())
 			{
+				if(recalc) {
+					speed = 0.0;
+					if(collTrigger) {
+						recalcRoute();
+						speed = 10.0;
+						collTrigger = false;
+					}
+					else {
+						std::this_thread::sleep_for( std::chrono::milliseconds(3000));
+						speed = 10.0;
+						recalc = false;
+					}
+				}
+
 				const PathAlgorithm::Vertex& vertex = path[pathPoint+=speed];
 				front = BoundedVector( vertex.asPoint(), position);
 				position.x = vertex.x;
@@ -589,7 +604,9 @@ namespace Model
 				}
 
 				if(robotCollision()) {
-					driving = false;
+					//driving = false;
+					recalc = true;
+					collTrigger = true;
 					sendStopMessage();
 
 					Application::Logger::log("Stop de robot");
@@ -602,6 +619,7 @@ namespace Model
 									*/
 				}
 
+
 				notifyObservers();
 
 				sendLocation();
@@ -609,6 +627,8 @@ namespace Model
 
 
 				std::this_thread::sleep_for( std::chrono::milliseconds(100));
+
+				//while(recalc){Application::Logger::log("recalc");};
 
 				// this should be the last thing in the loop
 				if(driving == false)
@@ -695,23 +715,13 @@ namespace Model
 				robot->getFrontLeft(),
 				robot->getFrontRight()};
 
-		/*
-		Application::Logger::log("Center: " + std::to_string(robot->getPosition().x) +
-						", "+ std::to_string(robot->getPosition().y));
-		Application::Logger::log(robotPoly[0].x + ", "+ robotPoly[0].y);
-		Application::Logger::log(robotPoly[1].x + ", "+ robotPoly[1].y);
-		Application::Logger::log(robotPoly[2].x + ", "+ robotPoly[2].y);
-		Application::Logger::log(robotPoly[3].x + ", "+ robotPoly[3].y);
-		*/
-
-
 		if(robo2 != nullptr) {
 			if(Utils::Shape2DUtils::isInsidePolygon(robotPoly, 4, robo2->getFrontLeft())
 			||Utils::Shape2DUtils::isInsidePolygon(robotPoly, 4, robo2->getFrontRight())
 			||Utils::Shape2DUtils::isInsidePolygon(robotPoly, 4, robo2->getBackLeft())
 			||Utils::Shape2DUtils::isInsidePolygon(robotPoly, 4, robo2->getBackRight()))
 			{
-				Application::Logger::log(std::string("PANIEK PANIEK PANIEK PANIEK PANIEK"));
+				Application::Logger::log(std::string("Robot detected to close"));
 				return true;
 			}
 		}
@@ -816,10 +826,8 @@ namespace Model
 
 		//std::this_thread::sleep_for( std::chrono::milliseconds(5000));
 
-		driving = true;
-		drive();
-
-		//drive
+		recalc = false;
+		//drive();
 	}
 
 	void Robot::parseWorld(const std::string& message) {
@@ -891,6 +899,8 @@ namespace Model
 			alien->setPosition(Point(stoi(data.at(0)), stoi(data.at(1))),true);
 			alien->setFront(BoundedVector(stof(data.at(2)), stof(data.at(3))),true);
 		}
+
+		notifyObservers();
 	}
 
 	std::vector<std::string> Robot::tokeniseString (const std::string& message, char seperator) {
