@@ -354,7 +354,7 @@ namespace Model
 		int x = position.x - (size.x / 2);
 		int y = position.y - (size.y / 2);
 
-		Point originalFrontLeft( x - safetyMeasure, y - safetyMeasure);
+		Point originalFrontLeft( x, y - safetyMeasure);
 		double angle = Utils::Shape2DUtils::getAngle( front) + 0.5 * Utils::PI;
 
 		Point frontLeft( (originalFrontLeft.x - position.x) * std::cos( angle) - (originalFrontLeft.y - position.y) * std::sin( angle) + position.x, (originalFrontLeft.y - position.y) * std::cos( angle)
@@ -371,7 +371,7 @@ namespace Model
 		int x = position.x - (size.x / 2);
 		int y = position.y - (size.y / 2);
 
-		Point originalFrontRight( x + size.x + safetyMeasure, y - safetyMeasure);
+		Point originalFrontRight( x + size.x, y - safetyMeasure);
 		double angle = Utils::Shape2DUtils::getAngle( front) + 0.5 * Utils::PI;
 
 		Point frontRight( (originalFrontRight.x - position.x) * std::cos( angle) - (originalFrontRight.y - position.y) * std::sin( angle) + position.x, (originalFrontRight.y - position.y)
@@ -692,20 +692,18 @@ namespace Model
 		RobotPtr robo2 = RobotWorld::getRobotWorld().getRobot("Robo2");
 		Point robotPoly[] = {robot->getSafetyFrontLeft(safetyMeasure),
 				robot->getSafetyFrontRight(safetyMeasure),
-				robot->getSafetyBackLeft(safetyMeasure),
-				robot->getSafetyBackRight(safetyMeasure)};
-/*
+				robot->getFrontLeft(),
+				robot->getFrontRight()};
+
+		/*
 		Application::Logger::log("Center: " + std::to_string(robot->getPosition().x) +
 						", "+ std::to_string(robot->getPosition().y));
-		Application::Logger::log("FrontLeft: " + std::to_string(robot->getSafetyFrontLeft(safetyMeasure).x) +
-				", "+ std::to_string(robot->getSafetyFrontLeft(safetyMeasure).y));
-		Application::Logger::log("FrontRight: " + std::to_string(robot->getSafetyFrontRight(safetyMeasure).x) +
-				", "+ std::to_string(robot->getSafetyFrontRight(safetyMeasure).y));
-		Application::Logger::log("BackLeft: " + std::to_string(robot->getSafetyBackLeft(safetyMeasure).x) +
-				", "+ std::to_string(robot->getSafetyBackLeft(safetyMeasure).y));
-		Application::Logger::log("BackLeft: " + std::to_string(robot->getSafetyBackRight(safetyMeasure).x) +
-				", "+ std::to_string(robot->getSafetyBackRight(safetyMeasure).y));
-*/
+		Application::Logger::log(robotPoly[0].x + ", "+ robotPoly[0].y);
+		Application::Logger::log(robotPoly[1].x + ", "+ robotPoly[1].y);
+		Application::Logger::log(robotPoly[2].x + ", "+ robotPoly[2].y);
+		Application::Logger::log(robotPoly[3].x + ", "+ robotPoly[3].y);
+		*/
+
 
 		if(robo2 != nullptr) {
 			if(Utils::Shape2DUtils::isInsidePolygon(robotPoly, 4, robo2->getFrontLeft())
@@ -801,7 +799,10 @@ namespace Model
 		tempWalls.push_back(RobotWorld::getRobotWorld().newWall(robo2->getBackLeft(),robo2->getFrontLeft(), false));
 
 		//Recalc route
-		startDriving();
+		goal = RobotWorld::getRobotWorld().getGoal( "Goal");
+		calculateRoute(goal);
+
+
 
 		Application::Logger::log("Start driving has been called");
 
@@ -812,6 +813,11 @@ namespace Model
 		}
 
 		Application::Logger::log("End of recalc");
+
+		//std::this_thread::sleep_for( std::chrono::milliseconds(5000));
+
+		driving = true;
+		drive();
 
 		//drive
 	}
