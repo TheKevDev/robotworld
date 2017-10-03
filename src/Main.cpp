@@ -11,6 +11,7 @@ int main( 	int argc,
 	{
 		// Call the wxWidgets main variant
 		// This will actually call Application
+		std::cout<<"start"<<std::endl;
 		int result = runGUI( argc, argv);
 		return result;
 	}

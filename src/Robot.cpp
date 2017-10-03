@@ -13,8 +13,8 @@
 #include "CommunicationService.hpp"
 #include "Client.hpp"
 #include "Message.hpp"
-#include "MainApplication.hpp"
 #include "MainFrameWindow.hpp"
+#include "MainApplication.hpp"
 #include "LaserDistanceSensor.hpp"
 
 namespace Model
@@ -452,6 +452,7 @@ namespace Model
 				parseWorld(aMessage.getBody());
 
 				aMessage.setMessageType(RequestWorld);
+				//TO COMPILE THIS WAS DELETED
 				aMessage.setBody(getRobotData() + "&" + getGoalData() + "&" + RobotWorld::getRobotWorld().getWallData());
 /*
 				Model::RobotPtr robot = Model::RobotWorld::getRobotWorld().getRobot( "Robot");
@@ -578,9 +579,26 @@ namespace Model
 			while (position.x > 0 && position.x < 500 && position.y > 0 && position.y < 500 && pathPoint < path.size())
 			{
 
+				if(robotCollision()) {
+									recalc = true;
+									collTrigger = true;
+									sendStopMessage();
+
+									Application::Logger::log("Stop de robot");
+
+												/*
+												createWallsAroundRobot();
+
+												goal = RobotWorld::getRobotWorld().getGoal( "Goal");
+																	calculateRoute(goal);
+												*/
+								}
+
 				if(recalc) {
-					Application::Logger::log("if recalc");
+					Application::Logger::log("recalculating route");
 					speed = 0.0;
+					//std::this_thread::sleep_for( std::chrono::milliseconds(3000));
+					//Application::Logger::log("Waiting for debug purposes");
 					if(collTrigger) {
 						recalcRoute();
 						//std::this_thread::sleep_for( std::chrono::milliseconds(3000));
@@ -618,20 +636,20 @@ namespace Model
 
 				sendLocation();
 
-				if(robotCollision()) {
-					recalc = true;
-					collTrigger = true;
-					sendStopMessage();
-
-					Application::Logger::log("Stop de robot");
-
-								/*
-								createWallsAroundRobot();
-
-								goal = RobotWorld::getRobotWorld().getGoal( "Goal");
-													calculateRoute(goal);
-								*/
-				}
+//				if(robotCollision()) {
+//					recalc = true;
+//					collTrigger = true;
+//					sendStopMessage();
+//
+//					Application::Logger::log("Stop de robot");
+//
+//								/*
+//								createWallsAroundRobot();
+//
+//								goal = RobotWorld::getRobotWorld().getGoal( "Goal");
+//													calculateRoute(goal);
+//								*/
+//				}
 
 				std::this_thread::sleep_for( std::chrono::milliseconds(100));
 
@@ -766,9 +784,9 @@ namespace Model
 				remotePort = "12345";
 			}
 		}
-		if (MainApplication::isArgGiven( "-remote_ip"))
+		if (Application::MainApplication::isArgGiven( "-remote_ip"))
 		{
-			remoteIpAdres = MainApplication::getArg( "-remote_ip").value;
+			remoteIpAdres = Application::MainApplication::getArg( "-remote_ip").value;
 		}
 
 			// We will request an echo message. The response will be "Hello World", if all goes OK,
@@ -794,9 +812,9 @@ namespace Model
 				remotePort = "12345";
 			}
 		}
-		if (MainApplication::isArgGiven( "-remote_ip"))
+		if (Application::MainApplication::isArgGiven( "-remote_ip"))
 		{
-			remoteIpAdres = MainApplication::getArg( "-remote_ip").value;
+			remoteIpAdres = Application::MainApplication::getArg( "-remote_ip").value;
 		}
 
 			// We will request an echo message. The response will be "Hello World", if all goes OK,
@@ -933,9 +951,9 @@ namespace Model
 		{
 				remotePort = "12345";
 		}
-		if (MainApplication::isArgGiven( "-remote_ip"))
+		if (Application::MainApplication::isArgGiven( "-remote_ip"))
 		{
-			remoteIpAdres = MainApplication::getArg( "-remote_ip").value;
+			remoteIpAdres = Application::MainApplication::getArg( "-remote_ip").value;
 		}
 
 		Messaging::Client c1ient( remoteIpAdres,
@@ -945,6 +963,7 @@ namespace Model
 
 		Messaging::Message message;
 
+		//TO COMPILE THIS WAS DELETED
 		message.setBody(getRobotData() + "&" + getGoalData() + "&" + RobotWorld::getRobotWorld().getWallData());
 		message.setMessageType(RequestWorld);
 		c1ient.dispatchMessage( message);

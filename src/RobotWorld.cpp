@@ -286,6 +286,9 @@ void RobotWorld::populate(int aNumberOfWalls /*= 2*/)
 	if (Application::MainApplication::isArgGiven("-robot_type"))
 	{
 		robotType = Application::MainApplication::getArg("-robot_type").value;
+
+		std::cout<<"Populate get ARG: "<<robotType<<std::endl;
+
 	}
 
 	if (robotType == "client")
@@ -295,12 +298,15 @@ void RobotWorld::populate(int aNumberOfWalls /*= 2*/)
 		coordinates[0] = Point(100, 100);
 		coordinates[1] = Point(400, 400);
 
+		std::cout<<"Populate client "<<std::endl;
 
 		goalPoint = Point(450, 450);
 	}
 	else
 	{
 		RobotWorld::getRobotWorld().newRobot("Robot", Point(450, 50), false);
+
+		std::cout<<"Populate non client"<<std::endl;
 
 		coordinates[0] = Point(100, 400);
 		coordinates[1] = Point(400, 100);
