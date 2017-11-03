@@ -430,13 +430,6 @@ std::string RobotWorld::getWallData() const {
 			<<w->getPoint2().x << ","
 			<<w->getPoint2().y << ";";
 	}
-
-/*
-	os	<<walls.at(0)->getPoint1().x << ","
-		<<walls.at(0)->getPoint1().y << ","
-		<<walls.at(0)->getPoint2().x << ","
-		<<walls.at(0)->getPoint2().y;
-		*/
 	return os.str();
 }
 /**

@@ -18,6 +18,7 @@
 #include "LaserDistanceSensor.hpp"
 
 namespace Model {
+
 /**
  *
  */
@@ -27,6 +28,7 @@ Robot::Robot() :
 	std::shared_ptr<AbstractSensor> laserSensor(new LaserDistanceSensor(this));
 	attachSensor(laserSensor);
 }
+
 /**
  *
  */
@@ -37,6 +39,7 @@ Robot::Robot(const std::string& aName) :
 	std::shared_ptr<AbstractSensor> laserSensor(new LaserDistanceSensor(this));
 	attachSensor(laserSensor);
 }
+
 /**
  *
  */
@@ -46,6 +49,7 @@ Robot::Robot(const std::string& aName, const Point& aPosition) :
 	std::shared_ptr<AbstractSensor> laserSensor(new LaserDistanceSensor(this));
 	attachSensor(laserSensor);
 }
+
 /**
  *
  */
@@ -60,6 +64,7 @@ Robot::~Robot() {
 		stopCommunicating();
 	}
 }
+
 /**
  *
  */
@@ -71,12 +76,14 @@ void Robot::setName(const std::string& aName,
 	}
 
 }
+
 /**
  *
  */
 Size Robot::getSize() const {
 	return size;
 }
+
 /**
  *
  */
@@ -86,6 +93,7 @@ void Robot::setSize(const Size& aSize, bool aNotifyObservers /*= true*/) {
 		notifyObservers();
 	}
 }
+
 /**
  *
  */
@@ -96,12 +104,14 @@ void Robot::setPosition(const Point& aPosition,
 		notifyObservers();
 	}
 }
+
 /**
  *
  */
 BoundedVector Robot::getFront() const {
 	return front;
 }
+
 /**
  *
  */
@@ -112,12 +122,14 @@ void Robot::setFront(const BoundedVector& aVector,
 		notifyObservers();
 	}
 }
+
 /**
  *
  */
 float Robot::getSpeed() const {
 	return speed;
 }
+
 /**
  *
  */
@@ -127,6 +139,7 @@ void Robot::setSpeed(float aNewSpeed, bool aNotifyObservers /*= true*/) {
 		notifyObservers();
 	}
 }
+
 /**
  *
  */
@@ -135,6 +148,7 @@ void Robot::startActing() {
 	std::thread newRobotThread([this] {startDriving();});
 	robotThread.swap(newRobotThread);
 }
+
 /**
  *
  */
@@ -143,6 +157,7 @@ void Robot::stopActing() {
 	driving = false;
 	robotThread.join();
 }
+
 /**
  *
  */
@@ -154,12 +169,14 @@ void Robot::startDriving() {
 
 	drive();
 }
+
 /**
  *
  */
 void Robot::stopDriving() {
 	driving = false;
 }
+
 /**
  *
  */
@@ -186,6 +203,7 @@ void Robot::startCommunicating() {
 				toPtr<Robot>(), std::stoi(localPort));
 	}
 }
+
 /**
  *
  */
@@ -204,6 +222,7 @@ void Robot::stopCommunicating() {
 		c1ient.dispatchMessage(message);
 	}
 }
+
 /**
  *
  */
@@ -212,6 +231,7 @@ Region Robot::getRegion() const {
 			getBackRight() };
 	return Region(4, translatedPoints);
 }
+
 /**
  *
  */
@@ -220,6 +240,7 @@ bool Robot::intersects(const Region& aRegion) const {
 	region.Intersect(aRegion);
 	return !region.IsEmpty();
 }
+
 /**
  *
  */
@@ -241,6 +262,7 @@ Point Robot::getFrontLeft() const {
 
 	return frontLeft;
 }
+
 /**
  *
  */
@@ -262,6 +284,7 @@ Point Robot::getFrontRight() const {
 
 	return frontRight;
 }
+
 /**
  *
  */
@@ -285,6 +308,7 @@ Point Robot::getBackLeft() const {
 	return backLeft;
 
 }
+
 /**
  *
  */
@@ -329,6 +353,7 @@ Point Robot::getSafetyFrontLeft(unsigned short safetyMeasure) const {
 
 	return frontLeft;
 }
+
 /**
  *
  */
@@ -350,6 +375,7 @@ Point Robot::getSafetyFrontRight(unsigned short safetyMeasure) const {
 
 	return frontRight;
 }
+
 /**
  *
  */
@@ -373,6 +399,7 @@ Point Robot::getSafetyBackLeft(unsigned short safetyMeasure) const {
 	return backLeft;
 
 }
+
 /**
  *
  */
@@ -408,6 +435,7 @@ void Robot::handleNotification() {
 		notifyObservers();
 	}
 }
+
 /**
  *
  */
@@ -475,6 +503,7 @@ void Robot::handleRequest(Messaging::Message& aMessage) {
 	}
 	}
 }
+
 /**
  *
  */
@@ -528,6 +557,7 @@ std::string Robot::asString() const {
 
 	return os.str();
 }
+
 /**
  *
  */
@@ -541,6 +571,7 @@ std::string Robot::asDebugString() const {
 
 	return os.str();
 }
+
 /**
  *
  */
@@ -620,6 +651,7 @@ void Robot::drive() {
 		std::cerr << __PRETTY_FUNCTION__ << ": unknown exception" << std::endl;
 	}
 }
+
 /**
  *
  */
@@ -637,6 +669,7 @@ void Robot::calculateRoute(GoalPtr aGoal) {
 		Application::Logger::setDisable(false);
 	}
 }
+
 /**
  *
  */
@@ -646,6 +679,7 @@ bool Robot::arrived(GoalPtr aGoal) {
 	}
 	return false;
 }
+
 /**
  *
  */
@@ -731,9 +765,6 @@ void Robot::sendLocation() {
 	// We will request an echo message. The response will be "Hello World", if all goes OK,
 	// "Goodbye cruel world!" if something went wrong.
 	Messaging::Client c1ient(remoteIpAdres, remotePort, robot);
-
-	//aMessage.setMessageType(RequestWorld);
-	//aMessage.setBody(getRobotData());
 	Messaging::Message message(Model::Robot::MessageType::SendRobotLocation,
 			getRobotData());
 	c1ient.dispatchMessage(message);
@@ -759,9 +790,6 @@ void Robot::sendStopMessage() {
 	// We will request an echo message. The response will be "Hello World", if all goes OK,
 	// "Goodbye cruel world!" if something went wrong.
 	Messaging::Client c1ient(remoteIpAdres, remotePort, robot);
-
-	//aMessage.setMessageType(RequestWorld);
-	//aMessage.setBody(getRobotData());
 	Messaging::Message message(Model::Robot::MessageType::SendStopMessage);
 	c1ient.dispatchMessage(message);
 }
@@ -799,8 +827,6 @@ void Robot::recalcRoute() {
 	}
 
 	Application::Logger::log("End of recalc");
-
-	//std::this_thread::sleep_for( std::chrono::milliseconds(3000));
 }
 
 void Robot::parseWorld(const std::string& message) {
@@ -829,8 +855,6 @@ void Robot::createAlienRobot(const std::string& message) {
 		Application::Logger::log("Robot already exists");
 	}
 }
-
-//goalPoint = Point(50, 450);
 
 void Robot::createAlienWalls(const std::string& message) {
 	std::vector<std::string> data;
