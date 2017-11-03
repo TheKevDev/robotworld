@@ -835,21 +835,15 @@ void Robot::createAlienRobot(const std::string& message) {
 void Robot::createAlienWalls(const std::string& message) {
 	std::vector<std::string> data;
 
-	data = tokeniseString(message, ',');
+	data = tokeniseString(message, ';');
 
-	//Check if the the wall doesn't exist already
-	std::vector<WallPtr> currentWalls = RobotWorld::getRobotWorld().getWalls();
-	for (WallPtr& w : currentWalls) {
-		if (w->getPoint1() != Point(stoi(data.at(0)), stoi(data.at(1)))
-				&& w->getPoint2()
-						!= Point(stoi(data.at(2)), stoi(data.at(3)))) {
-			//If the wall doesn't exist we will add the wall to the field.
-			RobotWorld::getRobotWorld().newWall(
-					Point(stoi(data.at(0)), stoi(data.at(1))),
-					Point(stoi(data.at(2)), stoi(data.at(3))), false);
-		} else {
-			Application::Logger::log("Wall already exists");
-		}
+	for (const std::string& d : data) {
+		std::vector<std::string> walls;
+
+		walls = tokeniseString(d, ',');
+		RobotWorld::getRobotWorld().newWall(
+				Point(stoi(walls.at(0)), stoi(walls.at(1))),
+				Point(stoi(walls.at(2)), stoi(walls.at(3))), false);
 	}
 }
 
