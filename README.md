@@ -11,6 +11,7 @@ RobotWorld TCP/IP application
 > Zijkant kunnen kijken.
 > Zie image voor verschillende scenario's
 > Zonder muren moet hij ook werken.
+> Een knop om beide te starten.
 
 #Compilation in eclipse
 - Download the zip
